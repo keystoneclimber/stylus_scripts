@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        	Dark Reddit by keystoneclimber
 @namespace   	http://www.brandontarr.com
-@version     	1.0.1
+@version     	1.0.2
 @description	dark style for Reddit
 @author        	keystoneclimber
 @homepageURL	https://github.com/keystoneclimber/stylus_scripts/
@@ -31,7 +31,7 @@
 }
 /* Reset */
 *, *:before, *:after {
-/* 	background-color: #222 !important; */
+ 	background-color: #222 !important; 
 	border: none !important;
 	color: #777 !important;
 }
