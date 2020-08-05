@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Hide Google Search Promo Prompt by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    Hides Google Search Promotional Prompts
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.google.") {
+div[aria-label="promo"]
+  { display: none !important;}
+}

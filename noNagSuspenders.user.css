@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           No Nag Suspenders by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    Prevents The Great Suspender Chrome extension from nagging the user
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document regexp("chrome-extension://klbibkeccnjlkjkiokjodocebajanakg/suspended.html*") {
+#dudePopup, #donateBubble {
+    display: none !important;
+}
+}

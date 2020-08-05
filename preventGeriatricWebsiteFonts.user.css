@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Prevent Geriatric Website Fonts by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    Forces display of reasonable sized text for sites that insist on using oversize fonts
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document domain("facebook.com") {
+body,div,a,b,span {font-size:12px !important;}
+}
+
+@-moz-document domain("wikipedia.org") {
+#bodyContent{font-size: 12px !important;}
+}

@@ -1,0 +1,67 @@
+/* ==UserStyle==
+@name           Remove Facebook Ads by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    Removes Facebook Ads
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document domain("facebook.com") {
+/* Remove advertisements */
+#ad_0, #ad_1, #ad_2, #ad_3, #ad_4, 
+#ad_5, #ad_6, #ad_7, #ad_8, #ad_9,
+#ssponsor,
+.advert,
+.ad_body,
+.ad_capsule,
+.ad_media,
+.comments_ad_image,
+.sponsors,
+.sponsor_absolute,
+.social_ad,
+.UIHotStory_Ad { display:none !important; }
+
+/* Remove the unnecessary New Stuff and Next Step
+   sidebar items from the old Facebook Home page. */
+#new_stuff_content,
+.nextstep { display:none !important; }
+
+/* The following styles are part of the new Facebook redesign.
+   Updated as of July 24th, 2008. */
+.profile_sidebar_ads,
+.adcolumn,
+.ad_story,
+.social_ad_advert,
+.social_ad_image,
+.sponsor,
+.UIStandardFrame_SidebarAds,
+#home_sponsor { display:none !important; }
+
+/* The next item is a fix for the center column in the profile
+getting shifted when the ads to the right of it are removed. */
+.profile .right_column { 
+    float:left !important; 
+    padding-left:10px !important;
+    margin-left:10px !important;
+}
+
+/* Uncomment the .app_story and .app_install_story lines
+   below if you wish to hide these in the news feed. */
+
+/* Remove all application story entries in the news feed */
+/* .app_story { display:none !important; } */
+
+/* Remove "application installed by friend" stories */
+/* .app_install_story { display:none !important; } */
+
+/* hide stories */
+#fb_stories_card_root{
+    display: none; 
+}
+
+/* hide video chats */
+#video_chats{
+    display: none; 
+}
+}
