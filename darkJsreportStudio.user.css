@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name           Dark jsreport studio by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    dark style for jsreport studio
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://playground.jsreport.net") {
+
+:root {
+
+--color-search-background: #111111;
+--color-background: #303030;
+--color-button: #505050;  
+--color-text-inactive: #222222; 
+--color-text-menus: #666666;
+--color-text: #EEEEEE;
+--color-borders: #777777;
+--color-id: chartreuse;
+    
+}
+
+.treeListContainer___3W4ky,
+.propertiesPanel___3UPJt,
+.tabTitles___2xy0R
+{
+  background-color: var(--color-background) !important;
+  color: var(--color-text) !important;
+}
+
+.tabTitle___3acYs,
+.propertyTitle___3cLH_,
+input
+{
+  background-color: var(--color-button) !important;
+  color: var(--color-text) !important;
+  border-bottom: none !important;
+}
+
+/* .lines-content.monaco-editor-background > div.view-lines, */
+.monaco-editor-background,
+.monaco-editor .margin
+{
+  background-color: var(--color-background) !important;
+}
+
+/* .Pane .vertical Pane1
+{
+  background-color: var(--color-id) !important;
+} */
+
+/* .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input {
+  background-color: var(--color-id) !important;
+} */
+}

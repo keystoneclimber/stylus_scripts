@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Remove Outlook Ads by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    remove advertising from Outlook
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://outlook.live.com") {
+#app > div > div._3KAPMPOz8KsW24ooeUflK2 > div > div._1pHiM7jJITiO-ULj_dBGaM > div._3_hHr3kfEhbNYRFM5YJxH9 {
+  display: none !important;
+}
+
+
+}

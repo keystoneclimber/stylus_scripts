@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name           Dark Plex by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    dark style for Plex
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://app.plex.tv/desktop#") {
+/* background image */
+#plex > div.background-container > div > div > div:nth-child(1) > div {
+  background-image: none !important;
+}
+
+/* background texture */
+#plex > div.background-container > div > div > div:nth-child(2) {
+   background: none !important; 
+}
+
+/* selection header */
+#content > div > div > div.Page-page-aq7i_.Scroller-scroller-3GqQc.Scroller-none-3GfKR > div.PageHeader-pageHeader-14-NY, 
+#content > div > div > div.Page-page-aq7i_.Scroller-scroller-3GqQc.Scroller-none-3GfKR > div.PrePlayPageHeader-altPageHeader-3bZbS.PrePlayPageHeader-pageHeader-2o14F.PageHeader-pageHeader-14-NY {
+  background-color: rgba(0,0,0,.41) !important;  
+}
+
+/* left hand menu and main content */
+#content > div > div > div.Page-page-aq7i_.Scroller-scroller-3GqQc.Scroller-none-3GfKR > div.PrePlayPageContent-prePlayPageContentContainer-1ckaM.PageContent-pageContent-16mK6 > div.PrePlayPageContent-prePlayPageContent-1fFCH.Scroller-scroller-3GqQc.Scroller-vertical-VScFL > div, 
+#content > div > div > div.SidebarContainer-sidebarContainer-2RAYT > div, 
+#content > div > div > div.Page-page-aq7i_.Scroller-scroller-3GqQc.Scroller-none-3GfKR > div.PageContent-pageContent-16mK6.Scroller-scroller-3GqQc.Scroller-vertical-VScFL {
+  background: #000000 !important;  
+}
+}

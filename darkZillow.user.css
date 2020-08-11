@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           Dark Zillow by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    dark style for Zillow
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.zillow.com") {
+:root {
+
+--color-black: #000000;
+--color-background: #111111;
+--color-flyout: #171717;
+--color-flyout-highlight: #222222;
+--color-active-day: #222222;
+--color-checkboxes: #222222;    
+--color-dropdowns: #171717;    
+--color-button: #444444;
+--color-button-hover: #666666;
+--color-borders: #777777;
+--color-buttontext: #A4A4A4;
+--color-text-inactive: #222222;    
+--color-text: #444444;
+--color-text-active: #A4A4A4;
+--color-red-highlight: #DD4B39;
+--color-white: #FFFFFF;    
+--color-id: chartreuse;
+    
+}
+
+
+#search-page-list-container {
+  display: none !important;
+/*   flex: 0 0 300px; */
+}
+
+#pfs-nav-wrapper > div > header > nav > div.znav-links.znav-authenticated,
+#search-page-react-content
+{
+  background: var(--color-background) !important;
+  color: var(--color-white) !important;
+}
+
+/* .nav-top.nav-top_full, .nav-top-container, .nav-header {
+  background: var(--color-background) !important;
+  color: var(--color-text) !important;
+} */
+
+}
