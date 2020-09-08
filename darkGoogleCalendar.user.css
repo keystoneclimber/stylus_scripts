@@ -627,7 +627,13 @@ background: var(--color-button) !important;
 .UXzdrb .WpDZC.zHQkBf {
 	color: var(--color-text-active) !important;
 }
-
+/* header bar */
+    .ik71Ie {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: var(--color-background) !important;	
+    }   
+    
 /* close button */
 .XsU8xf, .rF3YF:hover {
   background-color: transparent;
