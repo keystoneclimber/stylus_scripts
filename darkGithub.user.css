@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Github by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
+@version        1.0.2
 @description    dark style for Github
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -775,9 +775,19 @@ background-position: left top !important;
   }
     
 /*      */
-    .gh-header, .gh-header-sticky {
+  .gh-header, .gh-header-sticky {
     background-color: #202020;
+  }
+    
+  .gh-header .gh-header-sticky.is-stuck+.gh-header-shadow {
+    background-color: #202020;
+  }    
+
+.TimelineItem-break {
+    height: 0px;
+    border-top: 0px;
 }
+
     
   /* custom code font */
   pre, code, tt, kbd:not(.badmono), pre, samp, .blob-code, .file-data pre,
