@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
+@version        1.0.2
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -37,8 +37,9 @@ background: #181818 !important;
 /* margin: 0px !important;  */
 }
 
+/* -------------------------------------------------------------- */
 /* new additions */
-    
+/* -------------------------------------------------------------- */
 .selectorToTest {
     color: red !important; /*red selector test color*/
     background-color: red !important
@@ -48,13 +49,15 @@ div {
     color: #777777 !important;  /*white text*/
 }
 
-.yg51vc, .I6TXqe, .MXl0lf, .MXl0lf:hover, .Xeztj, .MGqjK, .kp-blk {
+.yg51vc, .I6TXqe, .MXl0lf, .MXl0lf:hover, .Xeztj, .MGqjK, .kp-blk, .s8GCU {
     background: var(--color-background);
 }
 
-g-inner-card, .kLhEKe, .YSlUOe, .MGqjK {
+g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background-color: var(--color-background);
 }
+
+/* -------------------------------------------------------------- */
 
 /* FORM *:not([name="q"]):not([type="submit"]):not([type="button"]):not([class="gac_m"]):not(img), */
 header, .jZWadf, #gb > div, .ndYZfc, .Rn1jbe, .h0JrTc, .aajZCb, .RNNXgb, #hdtbSum, div.lrB9bb > g-img, .sfbg {
