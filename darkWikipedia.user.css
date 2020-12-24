@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wikipedia by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for Wikipedia
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -40,6 +40,11 @@ text-decoration: underline !important;
 
 #content, #content * {
 background: #202020 !important;
+border-color: #555 !important;
+}
+
+#mw-content-text pre > span {
+background: #1A1A1A !important;
 border-color: #555 !important;
 }
 
