@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Dark PartsBox by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    dark style for PartsBox
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document domain("partsbox.com") {
+* {
+background: #262626 !important;
+border-color: #262626 !important;
+color: #9a9a9a !important;
+}
+
+}
