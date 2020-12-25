@@ -1,17 +1,98 @@
 /* ==UserStyle==
 @name           Dark PartsBox by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for PartsBox
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
 @-moz-document domain("partsbox.com") {
-* {
-background: #262626 !important;
-border-color: #262626 !important;
-color: #9a9a9a !important;
+    
+:root {
+--color-background: #111111;   
+--color-text: #9A9A9A;  
+--color-text-active: #FEFEFE;
+--color-active: #1D1D1D;   
+--color-borders: #262626;    
+--color-dropdowns: #1D1D1D;      
+--color-id: chartreuse;   
+}
+    
+    
+/* main elements */
+.ui.popup, .ui.input>input {
+    background: var(--color-background);
+    border-color: var(--color-borders);
+    color: var(--color-text);
 }
 
+/* header */
+body, .ui.placeholder.segment, .ui.menu, .ui.menu .item, .ui.input.focus>input, .ui.input>input:focus, .ui.bottom.popup:before, #app-grid div:before {
+    background: var(--color-background);
+    color: var(--color-text);
+}
+    
+/* header active */   
+div.ui.icon.header, .ui.menu .active.item, .ui.menu .active.item:hover, .ui.vertical.menu .active.item:hover, .ui.secondary.menu .active.item, .ui.secondary.menu .active.item:hover, a.item.active > i, a.item.active svg {
+    background: var(--color-active);
+    color: var(--color-text-active);
+}
+
+/* header hover */
+.ui.link.menu .item:hover, .ui.menu .dropdown.item:hover, .ui.menu .link.item:hover, .ui.menu a.item:hover, .ui.secondary.menu .dropdown.item:hover, .ui.secondary.menu .link.item:hover, .ui.secondary.menu a.item:hover, #app-grid > div:nth-child(2) > div > div > div.ui.secondary.stackable.menu > div > div:nth-child(1) > div > div:hover, #app-grid span:hover {
+    cursor: pointer;
+    color:  var(--color-text-active);
+}
+  
+h1, h2, h3, div.content {
+    color: var(--color-text-active) !important;
+}  
+     
+h2, .ui.tabular.menu .active.item, .ui.segment, .ui.attached.header {
+    background: var(--color-active);
+    border: none;
+}  
+
+div.label, .ui.tabular.menu .item, label, .sub.header, .ui.table  {
+    color: var(--color-text) !important;
+}      
+
+.ui.table td.active, .ui.table tr.active {
+    background: var(--color-active) !important;
+    color: var(--color-text) !important; 
+}    
+        
+.ui.tabular.menu .active.item {
+    color: var(--color-text-active);
+}   
+
+div.ui.bottom.attached.segment, .ui.tabular.menu .active.item, div.ui.top.attached.tabular.menu {
+    border: none;
+}
+    
+input, div.ui.negative.message, div.ui.icon.message {
+    background: var(--color-background) !important;
+    border-color: var(--color-borders) !important;
+    color: var(--color-text) !important;
+}    
+    
+.ui.button, .ui.button:hover, .ui.secondary.buttons .button:hover {
+    background-color: #8da6c6;
+    color: #FFFFFF;
+    text-shadow: none;
+}    
+      
+div.Select-input > input, .Select-control .Select-value, .Select-menu-outer, .ui.table, .ui.table thead th, .Select-control, .Select-option {
+    background: var(--color-dropdowns) !important;
+}    
+    
+.Select.has-value.Select--single > .Select-control .Select-value .Select-value-label, .Select.has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label, .Select-option.is-selected, .Select-option.is-focused {
+    color: #FFFFFF;    
+}
+    
+.Select-option {
+    color: #333333;
+}    
+     
 }
