@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark PartsBox by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for PartsBox
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -63,7 +63,7 @@ div.label, .ui.tabular.menu .item, label, .sub.header, .ui.table  {
     color: var(--color-text) !important; 
 }    
 
-.ui.table td.positive, .ui.table tr.positive {
+.ui.table td.positive, .ui.table tr.positive, .ui.selectable.table tr.positive:hover, .ui.selectable.table tr:hover td.positive, .ui.table tr td.selectable.positive:hover {
     background: var(--color-active) !important;
 }   
     
