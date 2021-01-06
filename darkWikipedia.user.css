@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Dark Wikipedia by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
-@description    dark style for Wikipedia
+@version        1.0.2
+@description    dark style for Wikipedia and pages based on it
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
-@-moz-document domain("wikipedia.org") {
+@-moz-document domain("wikipedia.org"), domain("wikibooks.org") {
 * {
 background: #262626 !important;
 border-color: #262626 !important;
