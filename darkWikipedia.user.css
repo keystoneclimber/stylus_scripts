@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wikipedia by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for Wikipedia and pages based on it
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -14,11 +14,19 @@ border-color: #262626 !important;
 color: #9a9a9a !important;
 }
 
+#searchInput {
+    border: 1px solid #9a9a9a !important;
+}
+
+#searchInput:focus, #simpleSearch:hover #searchInput:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 #p-logo a {
 background-position:center center !important;
 background-repeat:no-repeat !important;
 }
-
 
 a{
 color: #000000 !important;
