@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.5
+@version        1.0.6
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -61,9 +61,10 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background-image: none;
 }
 
-.FoDaAb, .Pvpvv, .dXdtIf {
-    background-color: #181818;
+.sh-dlr__list-result, .FoDaAb, .Pvpvv, .dXdtIf, .WGYX8 {
+    background-color: var(--color-background);
 }
+      
 
 /* -------------------------------------------------------------- */
 
