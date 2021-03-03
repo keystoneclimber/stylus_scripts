@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.4
+@version        1.0.5
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -61,7 +61,7 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background-image: none;
 }
 
-.dXdtIf {
+.FoDaAb, .Pvpvv, .dXdtIf {
     background-color: #181818;
 }
 
@@ -111,18 +111,18 @@ header, .jZWadf, #gb > div, .ndYZfc, .Rn1jbe, .h0JrTc, .aajZCb, .RNNXgb, #hdtbSu
     
 /* Tracking number search input */
 .Ym9xpb {
-	color: #555555 !important;
+  color: #555555 !important;
 }
 
 /* Shopping prices, Tracking heading, Tracking carriers */
 .O8U6h, .vk_h.vk_bk, .jkOlLc  {
-	color: #DDDDDD !important;
+  color: #DDDDDD !important;
 }
 
 /* hide Google rainbow colored circle segments around user picture */
 #gb div > svg > path
 {
-  	display: none !important;  
+    display: none !important;  
 }
 
 /* google flights stuff */
