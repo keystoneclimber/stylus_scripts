@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Remove Facebook Ads by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    Removes Facebook Ads
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -22,6 +22,11 @@
 .social_ad,
 .UIHotStory_Ad { display:none !important; }
 
+/* remove marketplace covid warnings */
+#mount_0_0_Ew > div > div:nth-child(1) > div > div.rq0escxv.l9j0dhe7.du4w35lb > div > div > div.j83agx80.cbu4d94t.d6urw2fd.dp1hu0rb.l9j0dhe7.du4w35lb > div.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.pfnyh3mw.jifvfom9.gs1a9yip.owycx6da.btwxx1t3.buofh1pr.dp1hu0rb > div.rq0escxv.l9j0dhe7.du4w35lb.j83agx80.cbu4d94t.g5gj957u.d2edcug0.hpfvmrgz.rj1gh0hx.buofh1pr.dp1hu0rb > div > div > div > div > div.sonix8o1 > span > div {
+    display: none !important;
+}    
+    
 /* Remove the unnecessary New Stuff and Next Step
    sidebar items from the old Facebook Home page. */
 #new_stuff_content,
