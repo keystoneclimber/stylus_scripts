@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -44,7 +44,7 @@
 
 /* body, header bar */
 .nH.bkL, .gb_Dd.gb_ce {
-	background: var(--color-background) !important;
+  background: var(--color-background) !important;
 }
 
 /* main text */
@@ -63,7 +63,7 @@ span *{
 /* Icons */
 /* left side collapse button, magnifying glass, search button caret, google apps, notifications   */
 #gb svg {
-	color: var(--color-text-menus) !important;
+  color: var(--color-text-menus) !important;
     opacity: 1 !important;
 }
 
@@ -73,17 +73,17 @@ a[title="Gmail"] {
 }
 
 /* replace with plain text Google  */
-#gb div:nth-child(4):after{
-  content:  "Google";
-  font-family: arial,sans-serif;
-  font-size: 2rem;
-  opacity: 1 !important;
+#gb > div.gb_Kd.gb_4d.gb_Td.gb_wc > div.gb_Jd.gb_Xc.gb_Zc > div.gb_oc > div:after{
+    content:  "Google";
+    font-family: arial,sans-serif;
+    font-size: 2rem;
+    opacity: 1 !important;        
 }
 
 /* hide Google colored circle segments around user picture */
 #gb > div > div > div > div > div > a > div > svg > path
 {
-  	display: none !important;  
+    display: none !important;  
 }
 
 
@@ -205,7 +205,7 @@ label.aD::before {
 
 
 /* -------------------------------- */
-/* Google menu */
+/* Google Apps Menu */
 /* -------------------------------- */
 
 /* Google menu */
@@ -220,10 +220,39 @@ label.aD::before {
 
 /* Google menu */
 .EHzcec {
+   background: var(--color-search-background) !important;
+}
+    
+
+#gb > div.gb_Kd.gb_4d.gb_Td.gb_wc > div.gb_Xd.gb_Ta.gb_Jd.gb_1d > div:nth-child(2){
    background:var(--color-search-background) !important;
+}    
+
+/* -------------------------------- */
+/* Google Account Menu */
+/* -------------------------------- */
+.gb_F {
+    background: var(--color-search-background) !important;
+    border: none;
+    border-color: rgba(0,0,0,.2);
+}
+    
+.gb_wb.gb_wb, .gb_Db.gb_Db, .gb_Eb.gb_Eb, .gb_sb.gb_sb {
+    background-color: var(--color-search-background) !important;
+    color: #3c4043;
 }
 
+.gb_Nb>.gb_Mb:hover, .gb_Mb:hover, .gb_ub:hover {
+    background-color: var(--color-button) !important;
+}
+    
+.gb_l .gb_jb {
+    background: none !important;
+}
 
+.gb_kb:hover {
+    background-color: var(--color-button) !important;
+}
 
 /* -------------------------------- */
 /* left side menu */
@@ -981,7 +1010,7 @@ img[class="CToWUd"][width="1"][height="1"] {
 
 /* body, header bar, left side bar */
 body, header, .k831u {
-	background: var(--color-background) !important;
+  background: var(--color-background) !important;
 }
 
 
@@ -993,7 +1022,7 @@ body, header, .k831u {
 /* hide Google colored circle segments around user picture */
 #gb > div > div > div > div > div > a > div > svg > path
 {
-  	display: none !important;  
+    display: none !important;  
 }
 
 
