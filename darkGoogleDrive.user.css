@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Drive by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for Google Drive
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -39,9 +39,9 @@ body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):no
 }
 
 /* overrides */
-#aso_search_form_anchor td, #aso_search_form_anchor button, #aso_search_form_anchor svg, .gb_Oe, .gb_de div {
+/* #aso_search_form_anchor td, #aso_search_form_anchor button, #aso_search_form_anchor svg, .gb_Oe, .gb_de div {
     background-color: var(--color-dropdowns) !important;
-}
+} */
 
 /* grid view & details buttons */
 .a-d-c .a-s-fa-Ha-pa
@@ -52,10 +52,10 @@ body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):no
 /* search bar container, search input field, search dropdown list, search dropdown list current item hover */
 /* .gb_De form, .gb_De div, .gssb_e, .gssb_m, .gssb_i, */
 /* .gb_He div, .gb_He form */
-.gb_Ue, .gb_Ue div  {
+/* .gb_Ue, .gb_Ue div  {
     background-color: var(--color-checkboxes) !important;
     color: var(--color-text) !important;
-}
+} */
 
 /* search input text */
 .gb_Qe.gb_Re .gb_bf, #gs_lc50 > input:nth-child(1) {
@@ -65,7 +65,7 @@ body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):no
 /* hide Google colored circle segments around user picture */
 #gb > div > div > div > div > div > a > div > svg > path
 {
-  	display: none !important;  
+    display: none !important;  
 }
 
 /* hide right side addon bar */
@@ -261,7 +261,7 @@ button.RTMQvb.Kzazxf.fCmhtc.hc0pBf.x6jRSb.a-qb-d.h-sb-Ic.sXaDqb {
   div[id*='grid-table-container'] > canvas {
 /*     filter: invert(90%) hue-rotate(180deg);
     -webkit-filter: invert(90%) hue-rotate(180deg); */
-		
+    
     filter: invert(90%);
     -webkit-filter: invert(90%);
   }
