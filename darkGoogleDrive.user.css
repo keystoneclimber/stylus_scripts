@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Drive by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
+@version        1.0.2
 @description    dark style for Google Drive
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -27,17 +27,27 @@
 --color-id: chartreuse;    
 }
 
-/* var(--color-id) !important; */
 
 
 /* :not([class=""]) */
 
 /* main background accept recently edited item images*/
-body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):not([class="g-Ca-pt"]):not([type="button"]):not([class="uw8t2"]):not([class="wO3c5d"]) {
+body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):not([class="g-Ca-pt"]):not([type="button"]):not([class="uw8t2"]):not([class="wO3c5d"]):not([class="VfPpkd-d VfPpkd-d-Qu-dgl2Hf ksBjEc lKxP2d hdLJkf cUwnEc VZc3j LwbYJb vKmmhc w8ecmf JGNgFd VLrnY wg2eAc eO2Zfd qoCZef"]) {
     background-color: var(--color-background);
     color: var(--color-text) !important;
 }
 
+/* VfPpkd-vQzf8d     */
+/* VfPpkd-Jh9lGc     */
+/* VfPpkd-d VfPpkd-d-Qu-dgl2Hf ksBjEc lKxP2d hdLJkf cUwnEc VZc3j LwbYJb vKmmhc  w8ecmf JGNgFd VLrnY wg2eAc eO2Zfd  qoCZef     */
+    
+/* trash     */
+.a-t-cb, .A7IrWb.w8ecmf.VLrnY {
+    border-color: var(--color-background);
+}
+    
+
+    
 /* overrides */
 /* #aso_search_form_anchor td, #aso_search_form_anchor button, #aso_search_form_anchor svg, .gb_Oe, .gb_de div {
     background-color: var(--color-dropdowns) !important;
