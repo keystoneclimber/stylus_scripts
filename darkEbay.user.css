@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark eBay by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for eBay
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -32,9 +32,32 @@
 
     }
     
+    .pnl .msg {
+        background-color: #9fd6ff !important;
+    }
+    
+    .pnl .msg span {
+        color: black !important;
+    }    
+
+    
     #gh-ac-box {
         background: var(--color-search-background);
     }
+    
+    .merch-module.merch-module.merch-module .container_wrapper {
+        background: var(--color-background);
+    }
+    
+    #desc_ifr {
+        background: var(--color-background);
+    }
+    
+
+    .item-tile {
+        background: var(--color-background);
+    }
+    
     
     #gAC .ui-autocomplete {
         background: var(--color-search-background);
@@ -50,8 +73,12 @@
         border-radius: 0 3px 3px 0;
     }    
             
-        
-        
+.vi-swc-wrapper {
+    background-color: var(--color-background);
+}        
+
+
+    
     .gh-sch-prom #gh-ac {
         color: var(--color-text-active);
     }
@@ -464,6 +491,10 @@
     .dne-itemtile, .mfe-reco-ct, .mfe-img-ct-inner, .im-mskuidp, .big-hero.no-lazy, .itemThumb, #ListViewInner > li, .recos > li, .widget-wrapper div, .itmcd, .itemTooltip, .visual-category-card, div.feed.item, div.all_items > div.item_container.fl, div.event.last > section, .item-card-wrp, .item-card.lens-item, li.s-item {
         background-color: var(--color-background) !important;
     }    
+
+
+    
+
     
 }
     
