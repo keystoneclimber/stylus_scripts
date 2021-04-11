@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Dark eBay by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for eBay
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://www.google.com/calendar"), url-prefix("https://www.google.com/calendar"), url-prefix("http://calendar.google.com"), url-prefix("https://calendar.google.com") {
+@-moz-document domain("ebay.com") {
 :root {
 
 --color-black: #000000;
@@ -30,7 +30,6 @@
     
 }
 
-@-moz-document domain("ebay.com") {
 /* Remove stuff */
 .mfe-img-ct-inner.actions-buttons, .rpTbl th, .pd-data-tbl th, #user-feedback, #shd, #pushdownAdFragment, #cover_wrapper, .image-shadow {
     display: none !important;
