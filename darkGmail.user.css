@@ -259,24 +259,24 @@ label.aD::before {
 /* -------------------------------- */
 
 /* compose button */
-.z0 .L3 {
-  background-color: var(--color-button) !important;
-  color:  var(--color-text) !important;
-  height: 29px;
-  width: 115px;
-  border-radius: 0px;
+.Yh.akV {
+    background-color: var(--color-button);
+    box-shadow: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
 }
 
-/* compose button logo and label position */
-.z0>.L3::before {
-  background-image: none;
-  min-width: 20px;
-}
+.Yh.akV:before {
+    content:  "Compose";
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    opacity: 1 !important;  
+}    
 
-/* compose button position */
-.z0 {
-  padding: 0 0 0 0px;
-  margin: 16px 55px;
+.akV::before {
+    background-image: none;
+    height: 18px;
 }
 
 
