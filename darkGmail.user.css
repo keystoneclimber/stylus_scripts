@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -279,6 +279,9 @@ label.aD::before {
     height: 18px;
 }
 
+.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus {
+    background-color:  var(--color-background) !important;
+}
 
 /* -------------------------------- */
 /* mailbox folder list */
