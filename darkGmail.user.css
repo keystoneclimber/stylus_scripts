@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.3
+@version        1.0.4
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -286,6 +286,11 @@ label.aD::before {
 /* -------------------------------- */
 /* mailbox folder list */
 /* -------------------------------- */
+
+/* get rid of folder icons */
+.qj {
+    display: none;
+}    
 
 /* mailbox folder list font*/
 .TO .nU>.n0 {
