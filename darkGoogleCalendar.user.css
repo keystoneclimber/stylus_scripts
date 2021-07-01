@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -41,7 +41,7 @@ body, .tNDBE {
 
 /* hide calendar icon, big "+" circle*/
 /* [src="https://www.gstatic.com/images/branding/product/1x/calendar_48dp.png"],  */
-header img, .dwlvNd {
+header img, .dwlvNd, .kvaR1d, .Hrn1mc {
 	display: none !important;
 }
 
