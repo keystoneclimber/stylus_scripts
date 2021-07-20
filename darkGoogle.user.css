@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.8
+@version        1.0.9
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -93,6 +93,10 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
 #messaging-view gv-thread-item > div:hover {
     background-color: var(--color-button-hover);
 }
+    
+.gvPageRoot .grey-900 {
+    color: var(--color-text-active);
+}    
     
 /* -------------------------------------------------------------- */
 
