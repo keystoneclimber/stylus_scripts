@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.7
+@version        1.0.8
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://blogsearch.google"), url-prefix("http://books.google"), url-prefix("http://209.85.165.104"), url-prefix("http://translate.google"), url-prefix("http://video.google"), url-prefix("https://encrypted.google"), url-prefix("https://translate.google"), url-prefix("http://scholar.google"), url-prefix("https://scholar.google"), url-prefix("http://images.google"), url-prefix("https://images.google"), url-prefix("https://www.google.com/fonts"), regexp("https?://www\\.google\\.[a-z.]*/(?!calendar|nexus|adsense|analytics|maps).*") {
+@-moz-document url-prefix("http://blogsearch.google"), url-prefix("https://voice.google"), url-prefix("http://books.google"), url-prefix("http://209.85.165.104"), url-prefix("http://translate.google"), url-prefix("http://video.google"), url-prefix("https://encrypted.google"), url-prefix("https://translate.google"), url-prefix("http://scholar.google"), url-prefix("https://scholar.google"), url-prefix("http://images.google"), url-prefix("https://images.google"), url-prefix("https://www.google.com/fonts"), regexp("https?://www\\.google\\.[a-z.]*/(?!calendar|nexus|adsense|analytics|maps).*") {
 :root {
 
 --color-black: #000000;
@@ -70,6 +70,30 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background: none;
 }      
 
+/* Google Voice     */
+#messaging-view > div > md-content > gv-thread-details > div > div:nth-child(3) > gv-message-entry > div, 
+#messaging-view md-content > div,    
+#messaging-view md-content > gv-inbox-summary-ng2, 
+#gvPageRoot gv-dialpad-toggle > button, 
+.TF50hf-H9tDt, 
+.gb_Te, 
+.q2hAhb-RZ063d, 
+#messaging-view gv-message-list {
+    background-color: var(--color-background);
+}    
+
+#input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
+    color: #777777 !important;  /*white text*/
+} 
+    
+.rkljfb-gk6SMd {
+    background-color: var(--color-button);
+}  
+    
+#messaging-view gv-thread-item > div:hover {
+    background-color: var(--color-button-hover);
+}
+    
 /* -------------------------------------------------------------- */
 
 /* FORM *:not([name="q"]):not([type="submit"]):not([type="button"]):not([class="gac_m"]):not(img), */
