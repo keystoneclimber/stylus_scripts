@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.10
+@version        1.0.11
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -99,7 +99,25 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900 {
     color: var(--color-text-active);
 }    
+
+#il1 {
+    color: white !important;  /*white text*/
+}    
+
+.call-button[_ngcontent-dfw-c18] {
+    border: none;
+    background-color: #444444 !important;
+}
     
+mat-icon {
+    fill:  black !important;
+}    
+
+.mat-form-field-infix {
+    border-top: none;
+}
+
+
 /* -------------------------------------------------------------- */
 
 /* FORM *:not([name="q"]):not([type="submit"]):not([type="button"]):not([class="gac_m"]):not(img), */
@@ -1650,6 +1668,7 @@ div.kp-blk.knowledge-panel.Wnoohf.OJXvsb {
     background: var(--color-background) !important;
 }
 }
+
 
 @-moz-document url-prefix("http://books.google") {
 /* Books */
