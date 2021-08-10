@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.13
+@version        1.0.14
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -117,7 +117,7 @@ mat-icon {
     border-top: none;
 }
 
-.gvPageRoot [_nghost-ohb-c27] .name[_ngcontent-ohb-c27] {
+.gvPageRoot .name {
     color: white !important;
 }
 
