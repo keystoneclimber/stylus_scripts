@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.11
+@version        1.0.12
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -104,7 +104,7 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     color: white !important;  /*white text*/
 }    
 
-.call-button[_ngcontent-dfw-c18] {
+.call-button {
     border: none;
     background-color: #444444 !important;
 }
