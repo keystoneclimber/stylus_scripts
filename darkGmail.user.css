@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.4
+@version        1.0.5
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -25,7 +25,7 @@
 --color-id: chartreuse;
     
 }
-
+    
 
 /* ------------------------------------------------------------------------------------------------ */
 /* UI styling */
@@ -668,6 +668,11 @@ div.vU
   color: #979797 !important;
 }
 
+/*     reply box */
+.gO, #\:o0, .J-JN-M-I, .J-JN-M-I.J-JN-M-I-JW, .vN>.vT {
+    color: var(--color-text);
+}
+    
  /* reply box controls colors */
 .aaA, .dv, .aaA.aMZ, .og.T-I-J3, .J-J5-Ji.J-JN-M-I-JG, .ajT {
 /*   background: var(--color-id) !important; */
