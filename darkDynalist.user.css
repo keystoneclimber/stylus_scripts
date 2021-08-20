@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Dynalist by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
+@version        1.0.2
 @description    dark style for Dynalist
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -386,9 +386,10 @@ input, textarea, select {
 }
     
 /* get rid of redundant task list name header */
-.Node-self.is-noteEmpty.is-parent.is-noteRendered {
+div.Document-rootNode.u-use-pref-font.is-calibriLight > div > div.Node-self.is-noteEmpty.is-parent.is-noteRendered > div.node-line.Node-contentContainer {
   display: none;
 }
+    
     
 /* main body padding */
 .DocumentContainer {
