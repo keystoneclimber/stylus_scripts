@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Dynalist by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for Dynalist
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -90,17 +90,20 @@ li, p {
 /* header color and box shadow */
 .AppHeader {
   background-color: var(--color-background);  
-  box-shadow: none;
+/*   box-shadow: none; */
+/*     box-shadow: 0 1px 3px var(--color-background); */
+    box-shadow: 0 1px 3px rgb(0 0 0 / 100%);
 }
 
 /* remove padding before header */
 .DocumentBreadcrumb {
   padding: 0;
   min-height: 35px;
+/*     min-height: 0px; */
 }
 
 /* hide header icons... sync status, what's new, settings, view options */
-.AppHeader-syncStatus, .AppHeader-notifications, .AppHeader-settings, .DocumentTools-filterView:before {
+.AppHeader-syncStatus, .AppHeader-notifications, .DocumentTools-filterView:before {
   display: none;
 }
 
@@ -336,7 +339,7 @@ input, textarea, select {
 /* currently selected list item */
 .pane-item.DocumentItem.is-open > .pane-item-header {
   background-color: var(--color-background); 
-  color: var(--color-text-content);
+  color: var(--color-text-heading);
 }
 
 /* list item hover */
@@ -377,6 +380,30 @@ input, textarea, select {
 /* body                             */
 /* -------------------------------- */
 
+.Document-rootNode.u-use-pref-font.is-calibriLight {
+  font-size: 13px;
+/*   font-family: "Calibri Light"; */
+}
+    
+/* get rid of redundant task list name header */
+.Node-self.is-noteEmpty.is-parent.is-noteRendered {
+  display: none;
+}
+    
+/* main body padding */
+.DocumentContainer {
+    padding: 0;
+    padding-right: 10px
+}
+
+/* checkbox */
+.Node-checkbox:before {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    border-radius: 1px;
+}
+    
 /* body top border */
 .main-container {
   background: var(--color-borders);
@@ -392,6 +419,13 @@ input, textarea, select {
 /* remove list and heading padding */
 .Document, .Document-rootNode {
   margin: 0 !important;
+  border: none !important;
+}
+    
+/*     remove borders between line items to decrease spacing */
+.Node {
+    border-top: none;
+    border-bottom: none;
 }
 
 /* remove margin between title and list */
