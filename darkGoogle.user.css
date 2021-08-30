@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.14
+@version        1.0.15
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -109,9 +109,9 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background-color: #444444 !important;
 }
     
-mat-icon {
+/* mat-icon {
     fill:  black !important;
-}    
+}     */
 
 .mat-form-field-infix {
     border-top: none;
@@ -121,6 +121,7 @@ mat-icon {
     color: white !important;
 }
 
+    
 /* -------------------------------------------------------------- */
 
 /* FORM *:not([name="q"]):not([type="submit"]):not([type="button"]):not([class="gac_m"]):not(img), */
