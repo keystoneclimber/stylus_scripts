@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.15
+@version        1.0.16
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://blogsearch.google"), url-prefix("https://voice.google"), url-prefix("http://books.google"), url-prefix("http://209.85.165.104"), url-prefix("http://translate.google"), url-prefix("http://video.google"), url-prefix("https://encrypted.google"), url-prefix("https://translate.google"), url-prefix("http://scholar.google"), url-prefix("https://scholar.google"), url-prefix("http://images.google"), url-prefix("https://images.google"), url-prefix("https://www.google.com/fonts"), regexp("https?://www\\.google\\.[a-z.]*/(?!calendar|nexus|adsense|analytics|maps).*") {
+@-moz-document url-prefix("http://blogsearch.google"), url-prefix("http://books.google"), url-prefix("http://209.85.165.104"), url-prefix("http://translate.google"), url-prefix("http://video.google"), url-prefix("https://encrypted.google"), url-prefix("https://translate.google"), url-prefix("http://scholar.google"), url-prefix("https://scholar.google"), url-prefix("http://images.google"), url-prefix("https://images.google"), url-prefix("https://www.google.com/fonts"), regexp("https?://www\\.google\\.[a-z.]*/(?!calendar|nexus|adsense|analytics|maps).*") {
 :root {
 
 --color-black: #000000;
@@ -177,8 +177,7 @@ header, .jZWadf, #gb > div, .ndYZfc, .Rn1jbe, .h0JrTc, .aajZCb, .RNNXgb, #hdtbSu
 }
 
 /* hide Google rainbow colored circle segments around user picture */
-#gb div > svg > path
-{
+#gb div > svg > path {
     display: none !important;  
 }
 
@@ -1731,4 +1730,114 @@ color: #999999 !important;
 }
 
 /* The End */
+}
+
+@-moz-document url-prefix("https://voice.google") {
+:root {
+
+--color-black: #000000;
+--color-background: #181818;
+--color-flyout: #171717;
+--color-flyout-highlight: #222222;
+--color-active-day: #222222;
+--color-checkboxes: #222222;    
+--color-dropdowns: #171717;    
+--color-button: #444444;
+--color-button-hover: #666666;
+--color-borders: #777777;
+--color-icon:  #989898;
+--color-icon-active:  #FFFFFF;    
+--color-buttontext: #A4A4A4;
+--color-text-inactive: #555555;    
+--color-text: #777777;
+--color-text-active: #FFFFFF;
+--color-menu: #DDDDDD;
+--color-red-highlight: #DD4B39;  
+--color-id: chartreuse;
+    
+}
+
+#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, 
+#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div,
+#messaging-view > div > md-content > gv-thread-details > div > div:nth-child(3) > gv-message-entry > div, 
+#messaging-view md-content > div,    
+#messaging-view md-content > gv-inbox-summary-ng2, 
+#gvPageRoot gv-dialpad-toggle > button, 
+.TF50hf-H9tDt, 
+.gb_Te, 
+.q2hAhb-RZ063d, 
+#messaging-view gv-message-list {
+    background-color: var(--color-background);
+} 
+    
+body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .read, .thread, .gb_Ne, header, .jZWadf, #gb > div, .ndYZfc, .Rn1jbe, .h0JrTc, .aajZCb, .RNNXgb, #hdtbSum, div.lrB9bb > g-img, .sfbg { 
+background: var(--color-background) !important;
+}
+
+/* hide Google rainbow colored circle segments around user picture */
+#gb div > svg > path:not(#gb > div.gb_Fd.gb_Wd > div.gb_Ed.gb_Wc.gb_Xc > div:nth-child(1) > svg > path) {
+    display: none !important;  
+}
+
+/* hide border around search bar */
+.RNNXgb, #gb > div.gb_Md.gb_3d.gb_Ud.gb_Td > div.gb_Tc.gb_Na.gb_Sc > div > div.gb_Ia.gb_dd.gb_yg.gb_g.gb_Hf > div > a {
+    border: none !important;  
+}
+
+* {
+    border-color: #555555 !important;
+    text-decoration: none !important;
+}
+
+.gb_8e::placeholder {
+    color: var(--color-text-inactive) !important;
+}    
+    
+.gb_Ne {
+    border: none;
+}    
+    
+#gvPageRoot > div:nth-child(1) {
+    border-bottom: none !important;
+}                    
+
+    
+div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
+    color:var(--color-text) !important;
+}    
+
+#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900, #il1, #il2, .gvPageRoot .name, INPUT[name="q"] {
+    color: var(--color-text-active) !important;
+} 
+    
+.rkljfb-gk6SMd {
+    background-color: var(--color-button);
+}  
+    
+#messaging-view gv-thread-item > div:hover {
+    background-color: var(--color-button-hover);
+}
+    
+.call-button {
+    border: none;
+    background-color: #444444 !important;
+}
+    
+.mat-form-field-infix {
+    border-top: none;
+}
+
+.gmat-nav-list .gmat-nav-list-item.gmat-list-item-active, .gmat-nav-list .gmat-static-nav-list-item.gmat-list-item-active {
+    background:var(--color-background);
+}
+
+.gvPageRoot [_nghost-jjd-c7] .root[_ngcontent-jjd-c7] .gmat-nav-list-item.gmat-list-item-active .mat-icon svg {
+    color: var(--color-red-highlight);
+}
+
+.Bqxti-VCkuzd, .Bqxti-VCkuzd a {
+    background-color: #8bc24a;
+    color: black !important;
+}
+    
 }
