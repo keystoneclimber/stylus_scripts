@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.16
+@version        1.0.17
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1789,7 +1789,7 @@ background: var(--color-background) !important;
     text-decoration: none !important;
 }
 
-.gb_8e::placeholder {
+.gb_8e::placeholder, #il2::placeholder {
     color: var(--color-text-inactive) !important;
 }    
     
