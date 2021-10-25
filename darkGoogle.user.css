@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.17
+@version        1.0.18
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -70,56 +70,7 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background: none;
 }      
 
-/* Google Voice     */
-#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, 
-#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div,
-#messaging-view > div > md-content > gv-thread-details > div > div:nth-child(3) > gv-message-entry > div, 
-#messaging-view md-content > div,    
-#messaging-view md-content > gv-inbox-summary-ng2, 
-#gvPageRoot gv-dialpad-toggle > button, 
-.TF50hf-H9tDt, 
-.gb_Te, 
-.q2hAhb-RZ063d, 
-#messaging-view gv-message-list {
-    background-color: var(--color-background);
-}    
 
-#input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
-    color: #777777 !important;  /*white text*/
-} 
-    
-.rkljfb-gk6SMd {
-    background-color: var(--color-button);
-}  
-    
-#messaging-view gv-thread-item > div:hover {
-    background-color: var(--color-button-hover);
-}
-    
-#gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900 {
-    color: var(--color-text-active);
-}    
-
-#il1 {
-    color: white !important;  /*white text*/
-}    
-
-.call-button {
-    border: none;
-    background-color: #444444 !important;
-}
-    
-/* mat-icon {
-    fill:  black !important;
-}     */
-
-.mat-form-field-infix {
-    border-top: none;
-}
-
-.gvPageRoot .name {
-    color: white !important;
-}
 
     
 /* -------------------------------------------------------------- */
@@ -1803,7 +1754,7 @@ background: var(--color-background) !important;
 
     
 div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
-    color:var(--color-text) !important;
+    color: var(--color-text) !important;
 }    
 
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900, #il1, #il2, .gvPageRoot .name, INPUT[name="q"] {
@@ -1838,6 +1789,20 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
 .Bqxti-VCkuzd, .Bqxti-VCkuzd a {
     background-color: #8bc24a;
     color: black !important;
+}
+    
+#messaging-view > div > md-content > gv-thread-details > div > div.q2hAhb-RZ063d > gv-recipient-picker > div > md-content {
+    background: var(--color-background);    
+}
+    
+.mat-chip.gmat-chip {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    box-shadow: none;
+}
+    
+#il1::placeholder, #input_1::placeholder {
+    color: var(--color-text) !important;    
 }
     
 }
