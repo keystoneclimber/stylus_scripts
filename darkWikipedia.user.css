@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wikipedia by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.3
+@version        1.0.4
 @description    dark style for Wikipedia and pages based on it
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -71,7 +71,13 @@ background: #1a1a1a !important;
 
 /************** IMAGES **************/
 
-
+/*   image based math elements   */
+#mw-content-text img {
+    filter: invert(100%);
+    background: none !important;
+}
+    
+    
 img[src*="http://upload.wikimedia.org/wikipedia/meta/2/2a/Nohat-logo-nowords-bgwhite-200px.jpg"] {
 width: 0px !important;
 height: 150px !important;
