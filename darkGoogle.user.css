@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.18
+@version        1.0.19
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1779,7 +1779,7 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
 }
 
 .gmat-nav-list .gmat-nav-list-item.gmat-list-item-active, .gmat-nav-list .gmat-static-nav-list-item.gmat-list-item-active {
-    background:var(--color-background);
+    background: var(--color-background);
 }
 
 .gvPageRoot [_nghost-jjd-c7] .root[_ngcontent-jjd-c7] .gmat-nav-list-item.gmat-list-item-active .mat-icon svg {
@@ -1804,5 +1804,12 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
 #il1::placeholder, #input_1::placeholder {
     color: var(--color-text) !important;    
 }
+    
+.BN08bf-R44ZW {
+    background-color: var(--color-background);
+}
+    
+    
+    
     
 }
