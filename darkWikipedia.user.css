@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Wikipedia by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.4
+@version        1.0.5
 @description    dark style for Wikipedia and pages based on it
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -72,7 +72,7 @@ background: #1a1a1a !important;
 /************** IMAGES **************/
 
 /*   image based math elements   */
-#mw-content-text img {
+#mw-content-text img[class="mwe-math-fallback-image-inline"] {
     filter: invert(100%);
     background: none !important;
 }
