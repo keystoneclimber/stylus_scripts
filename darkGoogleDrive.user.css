@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Drive by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for Google Drive
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -26,8 +26,6 @@
 --color-white: #FFFFFF;    
 --color-id: chartreuse;    
 }
-
-
 
 /* :not([class=""]) */
 
@@ -141,7 +139,22 @@ button.RTMQvb.Kzazxf.fCmhtc.hc0pBf.x6jRSb.a-qb-d.h-sb-Ic.sXaDqb {
 
 /* var(--color-id) !important; */
 
+/* hide right side addon bar */
+/* .docs-material.docs-companion-app-switcher-container {
+  display: none;
+} */
 
+#docs-meet-in-editors-entrypointbutton {
+    background: var(--color-background);
+    border: none;
+}
+
+.waffle-name-box-container, .formula-bar-with-name-box-wrapper, .waffle-name-box {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+    
+    
 /* header, formula bar, bottom tab bar */
 #docs-chrome, .docs-material #docs-header .docs-titlebar-buttons,
 #formula-bar, #t-formula-bar-input > div,
