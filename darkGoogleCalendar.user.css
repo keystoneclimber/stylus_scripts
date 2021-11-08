@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.3
+@version        1.0.4
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -499,6 +499,10 @@ background: var(--color-button) !important;
   color: var(--color-white) !important;
 }
 
+.yzYBvd.F262Ye {
+  background-color: var(--color-button-hover) !important;
+}  
+    
 
 /* event text */
 .g3dbUc {
