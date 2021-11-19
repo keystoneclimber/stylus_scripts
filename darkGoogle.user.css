@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.22
+@version        1.0.23
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1811,6 +1811,15 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
 
 div.Bqxti-nNrmv {
     display: none;
+}
+    
+gv-in-call-ng2 > section > div {
+    background:  var(--color-background) !important;
+}
+
+div.dialpad-entry-container.ng-star-inserted  input {
+    background:  var(--color-background) !important;
+    color:  var(--color-text);
 }
     
 }
