@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.5
+@version        1.0.6
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -259,14 +259,28 @@ label.aD::before {
 /* -------------------------------- */
 
 /* compose button */
-.Yh.akV {
+.Yh.akV, .z0>.L3 {
     background-color: var(--color-button);
+    color:  var(--color-text) !important;
     box-shadow: none;
     border-radius: 3px;
     height: 30px;
     width: 100px;
 }
 
+.z0>.L3:hover {
+    background-color:  var(--color-button) !important;
+}
+
+.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus {
+    background-color: var(--color-background);
+}
+    
+div.T-I.T-I-KE.L3:before{
+/*     display: none; */
+    min-width: 20px;
+}
+    
 .Yh.akV:before {
     content:  "Compose";
     font-family: arial,sans-serif;
@@ -279,7 +293,7 @@ label.aD::before {
     height: 18px;
 }
 
-.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus {
+.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus, {
     background-color:  var(--color-background) !important;
 }
 
