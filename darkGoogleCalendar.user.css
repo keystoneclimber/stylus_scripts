@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.4
+@version        1.0.5
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -105,10 +105,15 @@ header div:not(.gb_qb) {
 /* search bar */
 /* -------------------------------- */
 
+/*   search bar placeholder text   */
+input.gb_6e::placeholder {
+    color: var(--color-text-active) !important;        
+}
+    
 /* search bar background & input field text*/
 #aso_search_form_anchor, input[aria-label="Search"] {
   background: var(--color-flyout-highlight) !important;
-  color: var(--color-text-active) !important;
+  color: var(--color-white) !important;
   height: 35px !important;
   border: none !important;
   position: relative !important;
