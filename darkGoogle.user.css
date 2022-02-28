@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.24
+@version        1.0.25
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1811,7 +1811,7 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
     box-shadow: none;
 }
     
-#il1::placeholder, #input_1::placeholder, #input_3::placeholder, .md-input, .uM2Vn-VdSJob, #input_0::placeholder {
+#il1::placeholder, #input_1::placeholder, #input_3::placeholder, .md-input, .uM2Vn-VdSJob, #input_0::placeholder, #input_4::placeholder {
     color: var(--color-text) !important;    
 }
     
