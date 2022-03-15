@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.26
+@version        1.0.27
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1727,7 +1727,8 @@ color: #999999 !important;
 .TF50hf-H9tDt, 
 .gb_Te, 
 .q2hAhb-RZ063d, 
-#messaging-view gv-message-list {
+#messaging-view gv-message-list,
+gv-thread-item-list {
     background-color: var(--color-background);
 } 
     
@@ -1796,9 +1797,14 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
     color: var(--color-red-highlight);
 }
 
-.Bqxti-VCkuzd, .Bqxti-VCkuzd a {
-    background-color: #8bc24a;
+/* message text color */
+div.message-row.ng-star-inserted > div {
     color: black !important;
+}
+
+/* outgoing message bubble color*/
+div.message-row.outgoing.ng-star-inserted > div.subject-content-container.bubble {
+    background-color: #8bc24a;
 }
     
 #messaging-view > div > md-content > gv-thread-details > div > div.q2hAhb-RZ063d > gv-recipient-picker > div > md-content {
