@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.28
+@version        1.0.29
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1838,7 +1838,7 @@ gv-in-call-ng2 > section > div {
     background:  var(--color-background) !important;
 }
 
-.gvPageRoot [_nghost-yuq-c265] .button[_ngcontent-yuq-c265] {
+ #gvPageRoot button {
     background-color: var(--color-background);
 }
         
