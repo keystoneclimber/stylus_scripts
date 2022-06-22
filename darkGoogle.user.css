@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.30
+@version        1.0.31
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1720,7 +1720,7 @@ color: #999999 !important;
 }  
 
 /* call sidebar */
-.gvCallSidebar-root.gvCallSidebar-messagesTab {
+.gvCallSidebar-root {
     background-color: var(--color-background) !important;
 } 
         
