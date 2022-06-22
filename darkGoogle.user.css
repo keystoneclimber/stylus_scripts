@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.29
+@version        1.0.30
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1704,20 +1704,26 @@ color: #999999 !important;
 --color-text-active: #FFFFFF;
 --color-menu: #DDDDDD;
 --color-red-highlight: #DD4B39;  
+--color-outgoing-message: #8bc24a;
 --color-id: chartreuse;
     
 }
 
 /* search bar & dropdown*/
-.gb_Qe, .gb_cf {
+.gb_Se, .gb_df, .gb_ef {
     background: var(--color-background) !important; 
 }
 
 /* search bar placeholder*/  
-.gb_bf::placeholder {
+.gb_df::placeholder {
     color: var(--color-text) !important;    
 }  
 
+/* call sidebar */
+.gvCallSidebar-root.gvCallSidebar-messagesTab {
+    background-color: var(--color-background) !important;
+} 
+        
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, 
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div,
 #messaging-view > div > md-content > gv-thread-details > div > div:nth-child(3) > gv-message-entry > div, 
@@ -1728,12 +1734,14 @@ color: #999999 !important;
 .gb_Te, 
 .q2hAhb-RZ063d, 
 #messaging-view gv-message-list,
+.gvMessageListHeader-messageHeader,
+.did-display,
 gv-thread-item-list {
     background-color: var(--color-background);
 } 
     
 body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .read, .thread, .gb_Ne, header, .jZWadf, #gb > div, .ndYZfc, .Rn1jbe, .h0JrTc, .aajZCb, .RNNXgb, #hdtbSum, div.lrB9bb > g-img, .sfbg { 
-background: var(--color-background) !important;
+    background: var(--color-background) !important;
 }
 
 /* hide Google rainbow colored circle segments around user picture */
@@ -1772,7 +1780,7 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
     color: var(--color-text-active) !important;
 } 
     
-.rkljfb-gk6SMd {
+.gvThreadItem-selected {
     background-color: var(--color-button);
 }  
     
@@ -1798,13 +1806,19 @@ div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div >
 }
 
 /* message text color */
-div.message-row.ng-star-inserted > div {
+.gvMessageItem-content {
     color: black !important;
 }
 
+/* hyperlinks */
+.gvMessageItem-bubble, .gvMessageItem-bubble a {
+    color: black !important;
+    background-color: var(--color-outgoing-message);
+}
+    
 /* outgoing message bubble color*/
-div.message-row.outgoing.ng-star-inserted > div.subject-content-container.bubble {
-    background-color: #8bc24a;
+.gvMessageItem-bubble {
+    background-color: var(--color-outgoing-message);
 }
     
 #messaging-view > div > md-content > gv-thread-details > div > div.q2hAhb-RZ063d > gv-recipient-picker > div > md-content {
