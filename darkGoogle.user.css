@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.31
+@version        1.0.32
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1736,7 +1736,9 @@ color: #999999 !important;
 #messaging-view gv-message-list,
 .gvMessageListHeader-messageHeader,
 .did-display,
-gv-thread-item-list {
+gv-thread-item-list,
+.header
+{
     background-color: var(--color-background);
 } 
     
