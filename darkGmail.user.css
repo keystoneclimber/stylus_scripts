@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.8
+@version        1.0.9
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -122,7 +122,13 @@ input[aria-label="Search mail"]{
   color: var(--color-text) !important;
   height: 35px;
 }
-  
+
+    /* input field text*/
+input[aria-label="Search in mail"]{
+  color: var(--color-text) !important;
+  height: 35px;
+}
+    
 /* magnifying glass icon and advanced search dropdown caret */
 #aso_search_form_anchor button svg {
   color: var(--color-text-menus) !important;
@@ -137,11 +143,12 @@ input[aria-label="Search mail"]{
 
 
 /* dropdown table background */
-.gstl_50.gssb_c table {
+.gstl_50.gssb_c table, tr.aRp {
   background-color: var(--color-search-background) !important;
   color: var(--color-text-menus) !important;
 }
 
+    
 /* search dropdown history current item indicator*/
 .gsfs {
   background-color: var(--color-search-background) !important;
