@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark NWS Radar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for National Weather Service Radar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -18,6 +18,11 @@
         background: var(--color-background);    
     }
 
+    #app > main > div > div.content-message {
+        padding: 0;
+        height: 0;
+    }
+    
     #app > header > div > div.title > a > span.title-long, #app > header > div > div.title > span {
         color: var(--color-text)
     }
