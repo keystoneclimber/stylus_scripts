@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.32
+@version        1.0.33
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1710,17 +1710,17 @@ color: #999999 !important;
 }
 
 /* search bar & dropdown*/
-.gb_Se, .gb_df, .gb_ef {
+.gb_Se, .gb_df, .gb_ef, .gb_Xe, .gb_jf {
     background: var(--color-background) !important; 
 }
 
 /* search bar placeholder*/  
-.gb_df::placeholder {
+.gb_df::placeholder, .gb_if::placeholder {
     color: var(--color-text) !important;    
 }  
 
 /* call sidebar */
-.gvCallSidebar-root {
+.gvCallSidebar-root, gv-side-nav {
     background-color: var(--color-background) !important;
 } 
         
