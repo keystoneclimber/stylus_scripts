@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.5
+@version        1.0.6
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -77,17 +77,22 @@ header div:not(.gb_qb) {
 }
 
 /* calendar text, today button, calendar display type menu, current month, current month w/ sidebar open, search mode heading text, remove button borders */
-#gb div > a > img + span,
+/* #gb div > a > img + span, */
+/* #ow2953 > span > span, */
+/* #gb > div > div > div > div > div > div > div > span > span > div > div > div > div, */
+/* #drawerMiniMonthNavigator > div > div > span, */
+/* #gb > div > div > div > span[role="heading"], */
+.gb_9d.gb_6c,
+.gb_9c,
+.VfPpkd-vQzf8d,
 #gb > div > div > div > div > div > div > div > div > span > span,
-#ow2953 > span > span,
-#gb > div > div > div > div > div > div > div > span > span > div > div > div > div,
-#drawerMiniMonthNavigator > div > div > span,
-#gb > div > div > div > span[role="heading"],
+.rSoRzd,    
 #gb div > div > div > div > div > div
+    
 {
-	color: var(--color-red-highlight) !important;
-  opacity: 1 !important;
-  border: none !important;
+    color: var(--color-red-highlight) !important;
+    opacity: 1 !important;
+    border: none !important;
 }
 
 /* calendar text */
@@ -191,7 +196,7 @@ header form {
   display: none !important;
 }
 
-/* shrink space where create calendar buttun used to be */
+/* shrink space where create calendar button used to be */
 .LXjtcc {
     height: 25px;
 }
@@ -256,7 +261,7 @@ header form {
 }
 
 /* search for people */
-.IIB0tc {
+.IIB0tc, .J09ahd.TanRXd.l94Mhe, .rFrNMe.ULpymb.KmlcJb.zKHdkd.Tyc9J {
     background-color: var(--color-background) !important;
 }
 
