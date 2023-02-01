@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.33
+@version        1.0.34
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1709,11 +1709,34 @@ color: #999999 !important;
     
 }
 
+/* general backgrounds     */
+.gvSettingsView-sections, .gvSettingsView-settingsNavBar {
+    background:  var(--color-background) !important;
+}
+    
+/* general heading text colors     */
+#gvPageRoot > div.gv_root.layout-column.flex > gv-side-panel > mat-sidenav-container > mat-sidenav-content > div > div.layout-row.flex > div > gv-settings-view > div > md-content._md.flex-noshrink.gvSettingsView-sections > div > div:nth-child(1) > gv-settings-account > gv-settings-section > div > h2, .gmat-nav-list-item.gmat-list-item-active, [class="phone-number-details ng-star-inserted"], [role="heading"], [class="header"], [class="internalHeader"], h2, h3{
+    color:  var(--color-text-active) !important;
+}    
+
+/* text colors     */
+div.device-label, [class="deviceLabel"],  button > div:not([class="caption"])  {
+    color:  var(--color-text) !important;
+} 
+    
 /* search bar & dropdown*/
-.gb_Se, .gb_df, .gb_ef, .gb_Xe, .gb_jf {
+.gb_Se, .gb_df, .gb_ef, .gb_Xe, .gb_jf, 
+#gb > div.gb_Rd.gb_8d > div.gb_Qd.gb_1d.gb_Re.gb_Le.gb_He.gb_Oe > div.gb_Je > form
+{
     background: var(--color-background) !important; 
 }
 
+.gb_We {
+    border: 1px solid transparent;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+}
+    
 /* search bar placeholder*/  
 .gb_df::placeholder, .gb_if::placeholder {
     color: var(--color-text) !important;    
@@ -1774,9 +1797,9 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 }                    
 
     
-div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
+/* div, #input_1, #messaging-view > div > md-content > gv-inbox-summary-ng2 > div > h2 {
     color: var(--color-text) !important;
-}    
+}     */
 
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900, #il1, #il2, #il3, #input_1, #input_2, #input_3, .gvPageRoot .name, INPUT[name="q"] {
     color: var(--color-text-active) !important;
