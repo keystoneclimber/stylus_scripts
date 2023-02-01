@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.34
+@version        1.0.35
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1842,8 +1842,9 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 }
     
 /* outgoing message bubble color*/
-.gvMessageItem-bubble {
+.gvPageRoot [_nghost-nrf-c253] .bubble[_ngcontent-nrf-c253], .gvPageRoot[_nghost-nrf-c253] .bubble[_ngcontent-nrf-c253] {
     background-color: var(--color-outgoing-message);
+     color: black !important;
 }
     
 #messaging-view > div > md-content > gv-thread-details > div > div.q2hAhb-RZ063d > gv-recipient-picker > div > md-content {
