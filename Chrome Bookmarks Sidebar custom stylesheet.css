@@ -1,0 +1,15 @@
+/* 
+This is NOT a stylus script\
+It is stored here simply for accessibility
+It is the custom stylesheet for the Chrome Extension Bookmark Sidebar
+Most of Bookmark Sidebar's settings are auto-synched EXCEPT for the custom stylesheet which must be setup in each browser
+*/
+
+section#sidebar {
+  background: #2E2F2B !important;
+  box-shadow: none;
+}
+
+section#sidebar>div.scrollBox>ul a.hover:not(.separator), section#sidebar>div.scrollBox>div.pinned>ul a.hover:not(.separator) {
+    background: rgba(255,255,255,0.05);
+}
