@@ -13,3 +13,7 @@ section#sidebar {
 section#sidebar>div.scrollBox>ul a.hover:not(.separator), section#sidebar>div.scrollBox>div.pinned>ul a.hover:not(.separator) {
     background: rgba(255,255,255,0.05);
 }
+
+body.dark section#sidebar>span.drag:hover, body.dark section#sidebar>span.drag.isDragged {
+    background: #2E2F2B;
+}
