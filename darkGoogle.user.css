@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.37
+@version        1.0.38
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1725,10 +1725,10 @@ div.device-label, [class="deviceLabel"],  button > div:not([class="caption"])  {
 } 
     
 /* search bar & dropdown*/
-.gb_Se, .gb_df, .gb_ef, .gb_Xe, .gb_jf, 
-#gb > div.gb_Rd.gb_8d > div.gb_Qd.gb_1d.gb_Re.gb_Le.gb_He.gb_Oe > div.gb_Je > form
+form[role="search"], div#\:0
 {
     background: var(--color-background) !important; 
+    background-color: var(--color-background) !important; 
 }
 
 .gb_We {
@@ -1738,8 +1738,8 @@ div.device-label, [class="deviceLabel"],  button > div:not([class="caption"])  {
 }
     
 /* search bar placeholder*/  
-.gb_df::placeholder, .gb_if::placeholder {
-    color: var(--color-text) !important;    
+form[role="search"] input::placeholder {
+    color: var(--color-text) !important;
 }  
 
 /* call sidebar */
@@ -1760,7 +1760,7 @@ div.device-label, [class="deviceLabel"],  button > div:not([class="caption"])  {
 .gvMessageListHeader-messageHeader,
 .did-display,
 gv-thread-item-list,
-.header
+.header, #il1, #contact-list
 {
     background-color: var(--color-background);
 } 
