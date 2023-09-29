@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.38
+@version        1.0.39
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1760,7 +1760,7 @@ form[role="search"] input::placeholder {
 .gvMessageListHeader-messageHeader,
 .did-display,
 gv-thread-item-list,
-.header, #il1, #contact-list
+.header, #il1, #contact-list, #il2
 {
     background-color: var(--color-background);
 } 
