@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Drive by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.3
+@version        1.0.4
 @description    dark style for Google Drive
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -35,6 +35,7 @@ body div :not([class="l-u-Ab-zb ta-gc-np-Nd"]):not([class="l-u-Ab-zb-Pn-ve"]):no
     color: var(--color-text) !important;
 }
 
+    
 /* VfPpkd-vQzf8d     */
 /* VfPpkd-Jh9lGc     */
 /* VfPpkd-d VfPpkd-d-Qu-dgl2Hf ksBjEc lKxP2d hdLJkf cUwnEc VZc3j LwbYJb vKmmhc  w8ecmf JGNgFd VLrnY wg2eAc eO2Zfd  qoCZef     */
@@ -110,6 +111,12 @@ button.RTMQvb.Kzazxf.fCmhtc.hc0pBf.x6jRSb.a-qb-d.h-sb-Ic.sXaDqb {
 .a-ec-Gd .Kzazxf.x6jRSb::before {
   filter: contrast(0);
 }
+    
+button.brbsPe.Ss7qXc.a-qb-d {
+    background-color: var(--color-background) !important;
+
+}
+
 }
 
 @-moz-document domain("docs.google.com") {
