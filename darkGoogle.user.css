@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.39
+@version        1.0.40
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -70,7 +70,10 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
     background: none;
 }      
 
-
+/*   Get rid of "sponsored" search results (i.e. Ads)   */
+#taw, #tvcap {
+    display: none;
+}
 
     
 /* -------------------------------------------------------------- */
