@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.40
+@version        1.0.41
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1889,5 +1889,18 @@ div.dialpad-entry-container.ng-star-inserted  input {
     background:  var(--color-background) !important;
     color:  var(--color-text);
 }
+    
+.gmat-mdc-list.mat-mdc-nav-list .mdc-list-item--activated {
+    background-color: var(--color-background) !important;
+}
+    
+.gmat-mdc-list.mat-mdc-nav-list .mdc-list-item--activated:focus::before {
+    background-color: var(--color-background) !important;
+}
+
+.mat-mdc-list-base.mat-mdc-list-base .mdc-list-item--selected .mdc-list-item__primary-text, .mat-mdc-list-base.mat-mdc-list-base .mdc-list-item--activated .mdc-list-item__primary-text, .mat-mdc-list-base.mat-mdc-list-base .mdc-list-item--selected.mdc-list-item--with-leading-icon .mdc-list-item__start, .mat-mdc-list-base.mat-mdc-list-base .mdc-list-item--activated.mdc-list-item--with-leading-icon .mdc-list-item__start {
+    color: var(--color-icon-active) !important;
+}
+    
     
 }
