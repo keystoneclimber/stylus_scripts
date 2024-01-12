@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.13
+@version        1.0.14
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1073,24 +1073,39 @@ img[class="CToWUd"][width="1"][height="1"] {
 /* background */
 body, header, .k831u, .JvO9cb, .gb_Se, .iUZlrc, .zealyf,
 #yDmH0d > c-wiz.nB4tbe > div > gm-coplanar-drawer > div > div > div > div.FttnIe,
-#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.BUKp6c > div.CFWEyb > div > div:nth-child(2) > div > div > div    
+#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.BUKp6c > div.CFWEyb > div > div:nth-child(2) > div > div > div,
+#yDmH0d > c-wiz.zQTmif.SSPGKf.eejsDc > div.QkOsze.NDbU2d.eO2Zfd.GQymqc > div.D1Vbte > c-wiz > div.BDUSGc > div,
+#yDmH0d > c-wiz:nth-child(20) > div.QkOsze.NDbU2d.eO2Zfd > div.D1Vbte > c-wiz > div.BDUSGc > div,
+a.W7Nbnf
 {
 background: var(--color-background) !important;
 }
     
 /* panel     */
-.as9eHe,
+div.xn36Yc,
 #gb > div.gb_wd.gb_jd > div > div,
-#yDmH0d > c-wiz:nth-child(22),    
-#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.FGgXHc > div,
-#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.FGgXHc > div > div.HQw1re > div > c-wiz > div > div
-    
+#yDmH0d > c-wiz,
+div.fBXTic,
+div.dFPtBe
 {
 background: var(--color-panel) !important;
 }
 
+#yDmH0d > c-wiz.zQTmif.SSPGKf.eejsDc > div.QkOsze.NDbU2d.eO2Zfd.GQymqc > div.nvy7uf > div.qsYKIe > div:nth-child(1) > div,
+#yDmH0d > c-wiz.zQTmif.SSPGKf.eejsDc > div.QkOsze.NDbU2d.eO2Zfd.GQymqc > div.nvy7uf > div.qsYKIe > div.HvvNoc > div    
+{
+    background: var(--color-panel) !important;
+}
+
+#yDmH0d > c-wiz.zQTmif.SSPGKf.eejsDc > div.QkOsze.NDbU2d.eO2Zfd.GQymqc > div.nvy7uf > div.qsYKIe > div.HvvNoc > div
+{
+     border-bottom: 1px solid var(--color-borders);   
+}    
     
-.dlP5vf, .Yz8cvd {
+    
+.dlP5vf, .Yz8cvd,
+#yDmH0d > c-wiz.nB4tbe > div > gm-coplanar-drawer > div > div > div > div.FttnIe > div.naGSwb.auswjd > div > div > a > div
+{
     background: var(--color-button) !important;
     border: none;
     color: var(--color-text) !important;    
