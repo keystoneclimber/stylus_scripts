@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.12
+@version        1.0.13
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -300,7 +300,7 @@ div.T-I.T-I-KE.L3:before{
     height: 18px;
 }
 
-.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus, {
+.TO.NQ, .n6 .ah9:hover, .n6 .ah9.aiu:hover, .n6 .ah9:focus, .CL.NQ, .CL:hover, .CL:focus {
     background-color:  var(--color-background) !important;
 }
 
@@ -1050,9 +1050,10 @@ img[class="CToWUd"][width="1"][height="1"] {
 @-moz-document url-prefix("https://contacts.google.com/") {
 :root {
 
---color-search-background: #111111;
+--color-search-background: #000000;
+--color-panel: #0C0C0C;
 --color-background: #191919;
---color-button: #353535;  
+--color-button: #353535;
 --color-text-inactive: #222222; 
 --color-text-menus: #666666;
 --color-text: #EEEEEE;
@@ -1069,28 +1070,41 @@ img[class="CToWUd"][width="1"][height="1"] {
 /* general */
 /* -------------------------------- */
 
-/* body, header bar, left side bar */
-body, header, .k831u, .as9eHe, .JvO9cb, .gb_Se, .iUZlrc, .zealyf {
-    background: var(--color-background) !important;
+/* background */
+body, header, .k831u, .JvO9cb, .gb_Se, .iUZlrc, .zealyf,
+#yDmH0d > c-wiz.nB4tbe > div > gm-coplanar-drawer > div > div > div > div.FttnIe,
+#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.BUKp6c > div.CFWEyb > div > div:nth-child(2) > div > div > div    
+{
+background: var(--color-background) !important;
+}
+    
+/* panel     */
+.as9eHe,
+#gb > div.gb_wd.gb_jd > div > div,
+#yDmH0d > c-wiz:nth-child(22),    
+#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.FGgXHc > div,
+#yDmH0d > c-wiz:nth-child(22) > div > div > div:nth-child(1) > div.FGgXHc > div > div.HQw1re > div > c-wiz > div > div
+    
+{
+background: var(--color-panel) !important;
 }
 
+    
 .dlP5vf, .Yz8cvd {
     background: var(--color-button) !important;
     border: none;
     color: var(--color-text) !important;    
 }
     
-.HQw1re {
-    background: var(--color-background) !important;
-    margin-top: 0 !important;
-    border: none !important;
-}
+
     
 .qSVdWb {
     border: none!important;
 }
     
-div {
+div,
+#yDmH0d a
+{
     color: var(--color-text) !important;    
 }
 
@@ -1118,9 +1132,25 @@ button {
 /* search bar*/
 /* -------------------------------- */
 
+#gb > div.gb_pd.gb_jd.gb_vd > div.gb_od.gb_yd.gb_Ee.gb_Re.gb_We > div.gb_De > form
+{
+    background: var(--color-search-background) !important;    
+}
+
+#gb > div.gb_pd.gb_jd.gb_vd > div.gb_od.gb_yd.gb_Ee.gb_Re.gb_We > div.gb_De > form > button.gb_Ie.gb_Je    
+{
+    background: none !important;    
+}
+
+    
+#gb > div.gb_pd.gb_jd.gb_vd > div.gb_od.gb_yd.gb_Ee.gb_Re.gb_We > div.gb_De > form
+{
+     border: 1px solid var(--color-borders);   
+}
+    
 /* unfocused search bar */
 .gb_oe.gb_la, .jBmls {
-  background: var(--color-backgroundn) !important;
+  background: var(--color-search-background) !important;
   color: var(--color-text) !important;
 }
 
@@ -1131,7 +1161,7 @@ button {
 
 /* search results list */
 .VOEIyf .jBmls, .VOEIyf, .VOEIyf .jBmls, .oKubKe {
-  background-color: var(--color-background) !important;
+  background-color: var(--color-search-background) !important;
   color: var(--color-text) !important;
 }
 
@@ -1141,56 +1171,5 @@ button {
 }
 
 
-/* -------------------------------- */
-/* Google menu */
-/* -------------------------------- */
 
-
-
-
-/* -------------------------------- */
-/* left side menu */
-/* -------------------------------- */
-
-.tuQOVc {
-  background: var(--color-background) !important;
-}
-
-.jqJLq span, .jqJLq a {
-  color: var(--color-text-menus) !important;
-}
-
-.bgpk6e {
-  background-color: var(--color-button) !important;
-  color: var(--color-text) !important;
-}
-
-.ncJ6qe.jqJLq {
-    background-color: var(--color-button) !important;
-}
-
-.jqJLq:hover, .UXNHp.jqJLq {
-    background-color: var(--color-button) !important;
-}
-
-.jqJLq:hover .as7S4c {
-    background: var(--color-button) !important;
-    -webkit-box-shadow: -10px 0 10px 0 var(--color-button) !important;
-    box-shadow: -10px 0 10px 0 var(--color-button) !important;
-    visibility: visible;
-}
-
-
-/* -------------------------------- */
-/* contacts table */
-/* -------------------------------- */
-
-.dFPtBe {
-    background: var(--color-background) !important;
-}
-
-.zYQnTe {
-    background: var(--color-background) !important;
-    color: var(--color-text) !important;
-}
 }
