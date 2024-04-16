@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.41
+@version        1.0.42
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1763,7 +1763,9 @@ form[role="search"] input::placeholder {
 .gvMessageListHeader-messageHeader,
 .did-display,
 gv-thread-item-list,
-.header, #il1, #contact-list, #il2
+.header, #il1, #contact-list, #il2,
+div.gvThreadDetails-messageEntryContainer,
+#messaging-view div.message-input-container > textarea
 {
     background-color: var(--color-background);
 } 
@@ -1816,7 +1818,9 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
     background-color: var(--color-button-hover);
 }
     
-.call-button {
+.call-button,
+#messaging-view > div > md-content > gv-thread-details > div > div.gvThreadDetails-messageEntryContainer > gv-message-entry-ng2 > div > div > div:nth-child(4) > button
+    {
     border: none;
     background-color: #444444 !important;
 }
@@ -1834,7 +1838,8 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 }
 
 /* message text color */
-.gvMessageItem-content {
+#messaging-view div.subject-content-container.bubble > gv-annotation
+{
     color: black !important;
 }
 
@@ -1845,7 +1850,8 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 }
     
 /* outgoing message bubble color*/
-.gvPageRoot [_nghost-nrf-c253] .bubble[_ngcontent-nrf-c253], .gvPageRoot[_nghost-nrf-c253] .bubble[_ngcontent-nrf-c253] {
+#messaging-view div.message-row.outgoing.ng-star-inserted > div.subject-content-container.bubble
+{
     background-color: var(--color-outgoing-message);
      color: black !important;
 }
