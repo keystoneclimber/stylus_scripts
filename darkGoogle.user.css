@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.42
+@version        1.0.43
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1765,7 +1765,8 @@ form[role="search"] input::placeholder {
 gv-thread-item-list,
 .header, #il1, #contact-list, #il2,
 div.gvThreadDetails-messageEntryContainer,
-#messaging-view div.message-input-container > textarea
+#messaging-view div.message-input-container > textarea,
+#il3
 {
     background-color: var(--color-background);
 } 
@@ -1789,7 +1790,7 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
     text-decoration: none !important;
 }
 
-.gb_8e::placeholder, #il2::placeholder {
+.gb_8e::placeholder, #il2::placeholder, #il3::placeholder {
     color: var(--color-text-inactive) !important;
 }    
     
