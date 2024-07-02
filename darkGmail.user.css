@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.15
+@version        1.0.16
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1077,7 +1077,11 @@ body, header, .k831u, .JvO9cb, .gb_Se, .iUZlrc, .zealyf,
 #yDmH0d > c-wiz.zQTmif.SSPGKf.eejsDc > div.QkOsze.NDbU2d.eO2Zfd.GQymqc > div.D1Vbte > c-wiz > div.BDUSGc > div,
 #yDmH0d > c-wiz:nth-child(20) > div.QkOsze.NDbU2d.eO2Zfd > div.D1Vbte > c-wiz > div.BDUSGc > div,
 a.W7Nbnf,
-.aHij0b-WsjYwc.j3urvf.jVwmLb
+.aHij0b-WsjYwc.j3urvf.jVwmLb,
+.qTFz2,
+.qsYKIe,
+.gb_1d,
+.aLDbGb
 {
 background: var(--color-background) !important;
 }
