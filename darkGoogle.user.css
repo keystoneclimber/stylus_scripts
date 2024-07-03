@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.45
+@version        1.0.46
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1732,7 +1732,12 @@ span.mdc-evolution-chip__cell.mdc-evolution-chip__cell--trailing.ng-star-inserte
 }    
 
 /* text colors     */
-div.device-label, [class="deviceLabel"],  button > div:not([class="caption"])  {
+div.device-label, 
+[class="deviceLabel"],  
+button > div:not([class="caption"]),
+div.message-input-container > textarea,
+#mat-mdc-chip-list-input-2
+{
     color:  var(--color-text) !important;
 } 
     
