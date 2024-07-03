@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.16
+@version        1.0.17
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1127,7 +1127,8 @@ background: var(--color-panel) !important;
 }
     
 div,
-#yDmH0d a
+#yDmH0d a,
+.SsJGwb .uoC0bf-TfeOUb-V67aGc
 {
     color: var(--color-text) !important;    
 }
@@ -1139,6 +1140,10 @@ input {
 button {
     background: var(--color-button) !important;
     color: var(--color-text) !important;   
+}
+    
+.naGSwb.auswjd .R2HVJf {
+    --gm3-card-outlined-container-color: var(--color-button)
 }
     
 /* -------------------------------- */
