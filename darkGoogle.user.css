@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.44
+@version        1.0.45
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1715,9 +1715,15 @@ color: #999999 !important;
 /* general backgrounds     */
 .gvSettingsView-sections, 
 .gvSettingsView-settingsNavBar,
-.messages-container
+.container,
+gv-recipient-picker-input-ng2 > div
 {
     background:  var(--color-background) !important;
+}
+
+span.mdc-evolution-chip__cell.mdc-evolution-chip__cell--trailing.ng-star-inserted > button
+{
+    background:  none !important;
 }
     
 /* general heading text colors     */
