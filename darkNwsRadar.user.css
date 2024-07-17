@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark NWS Radar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.1
+@version        1.0.2
 @description    dark style for National Weather Service Radar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -31,6 +31,15 @@
         display: none;
     }
     
+    .menu-panel-agenda[data-v-73a73f4e] {
+        background: var(--color-background);    
+    }
+    
+    .menu-panel-agenda-actions-item[data-v-4ce70174] {
+        color: var(--color-text);
+        border-bottom: none ;
+        border-right: none;
+    }
     
     img[src*="header-logo-medium.41d6f234.png"] {
         display: none;
