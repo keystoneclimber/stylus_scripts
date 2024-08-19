@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.9
+@version        1.0.10
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -23,6 +23,8 @@
 --color-buttontext: #A4A4A4;
 --color-text-inactive: #222222;    
 --color-text: #444444;
+--color-text-dialog: #777777;
+--color-text-dialog-active: #DDDDDD;
 --color-text-active: #A4A4A4;
 --color-red-highlight: #DD4B39;
 --color-white: #FFFFFF;    
@@ -786,11 +788,36 @@ div
 .kma42e {
     background: var(--color-flyout-highlight) !important;
 }
+    
+#yDmH0d span {
+    color:  var(--color-text-dialog);
+}
 
 .zmrbhe.qs41qe {
     background: var(--color-flyout-highlight) !important;
-    color:  var(--color-text-active) !important;
+    color:  var(--color-text-dialog-active) !important;
 }  
+
+.tMfWZc:not(.VfPpkd-fmcmS-yrriRe-OWXEXe-OWB6Me) .VfPpkd-fmcmS-wGMbrd {
+    color:  var(--color-text-dialog-active) !important;
+}
+    
+#xAddRtcSel {
+    background-color: var(--color-flyout-highlight) !important;
+    color: var(--color-text) !important; 
+}
+    
+#yDmH0d > div > div > div.ecHOgf.RDlrG.Inn9w.iWO5td > span > div > div.q2nced > div.K0f0Xc > div.BTotkb.JaKw1 > div:nth-child(1) > button > span,
+
+#yDmH0d > div > div > div.ecHOgf.RDlrG.Inn9w.iWO5td > span > div > div.q2nced > div.K0f0Xc > div.ZX9XLb > div.BUmX4d > div.Dna1ee.JGCEqd > span > div > div.P85Ppd > div > div.rdgVoe > div > div > div.YwLf7b.XsN7kf.K4rTkf.YS68Af > div:nth-child(2) > div > button > span
+{
+  color: var(--color-text-dialog-active) !important;
+}
+    
+#yDmH0d > div.I2Yrs.iWO5td > div > div.ecHOgf.RDlrG.Inn9w.iWO5td > span > div > div.q2nced > div.K0f0Xc > div.ZX9XLb > div.BUmX4d > div.Dna1ee.JGCEqd > span > div > div.Av5s2 > button > span
+{
+  color: var(--color-text) !important;
+}
     
 /* borders */
 .uJ4w1, .mrslJ.ZjAUM, .KKjvXb {
@@ -799,12 +826,12 @@ div
 
 /* drop down menus */
 .MocG8c.LMgvRb {
-    color: var(--color-text-active) !important; 
+    color: var(--color-text-dialog-active) !important; 
 }
 
 /* more actions dropdown */
 .I3EnF .NlWrkb.snByac {
-    color: var(--color-text-active) !important; 
+    color: var(--color-text-dialog-active) !important; 
 }
 
 /* more actions dropdown */
