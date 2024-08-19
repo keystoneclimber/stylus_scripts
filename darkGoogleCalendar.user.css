@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google Calendar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.8
+@version        1.0.9
 @description    dark style for Google Calendar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -91,7 +91,8 @@ header img:not([class="gb_m gbii"]), .dwlvNd {
     
     
 /* calendar text, today button, calendar display type menu, current month, current month w/ sidebar open, search mode heading text, remove button borders */
-.VfPpkd-vQzf8d,
+
+#gb > div.gb_jd.gb_cd .VfPpkd-vQzf8d,
 .UyW9db,
 .gb_nd.gb_dd[role="heading"]
     
@@ -675,7 +676,7 @@ div
 
 /* Add Title Placeholder */
 .ndJi5d {
-    color: var(--color-text) !important;
+  color: var(--color-text) !important;
   opacity: 0.4 !important
 }
 
@@ -782,11 +783,15 @@ div
 /* -------------------------------- */
 /* Create Event Page */
 /* -------------------------------- */
-
-.p9lUpf {
-    background: var(--color-background) !important;
+.kma42e {
+    background: var(--color-flyout-highlight) !important;
 }
 
+.zmrbhe.qs41qe {
+    background: var(--color-flyout-highlight) !important;
+    color:  var(--color-text-active) !important;
+}  
+    
 /* borders */
 .uJ4w1, .mrslJ.ZjAUM, .KKjvXb {
   border-color: var(--color-borders) !important;
