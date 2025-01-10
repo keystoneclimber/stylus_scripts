@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.46
+@version        1.0.47
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -73,6 +73,16 @@ g-inner-card, .kLhEKe, .YSlUOe, .MGqjK, g-card, .F9PbJd, .cEW58 {
 /*   Get rid of "sponsored" search results (i.e. Ads)   */
 #taw, #tvcap {
     display: none;
+}
+ 
+/*  Get rid of the search results quantity banner added by Google 100 Results extension*/
+#hdtb {
+  display: none !important;  
+}  
+    
+/*  Get rid of "appbar" (excess line breaks in header)    */
+#appbar {
+  display: none !important;          
 }
 
     
@@ -296,6 +306,10 @@ a.gb_s.evenMoreLink   {
     transition: opacity .6s !important; 
 }                    
 
+#logo > svg {
+  display: none !important;   
+}
+    
 /* image based google logos */
 #logo, .gb_Ca .gb_Ea, .gb_Da .gb_Fa {
     background: url("https://farm1.staticflickr.com/678/20468850464_06a96a863e_o_d.png") !important;
@@ -385,7 +399,7 @@ color: #7F0000 !important;}
 .leftborder {
 border-right: 0px !important}
 
-* {border-color: #555555 !important; text-decoration: none !important;}
+/* * {border-color: #555555 !important; text-decoration: none !important;} */
                     
 #rcnt a:hover, #brs a:hover, #nycp a:hover {
     text-decoration: none !important;
