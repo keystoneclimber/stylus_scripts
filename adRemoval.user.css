@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Ad Removal by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.17
+@description    removing ads for various websites
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document domain("snipershide.com") {
+    body > div.sh_skinAd__wrapper,
+    #top > div.p-body > div > div.uix_contentWrapper > div.sh_headerAdWrapper > div.sh_manualAd
+    {
+        display: none !important;
+    }
+    
+    
+}
