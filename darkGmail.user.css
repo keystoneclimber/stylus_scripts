@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.18
+@version        1.0.19
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -68,17 +68,25 @@ span *{
 }
 
 /* hide Gmail logo */
-a[title="Gmail"] {
+a[title="Gmail"], .gb_Pd {
   display: none;
 }
 
 /* replace with plain text Google  */
-#gb > div.gb_Kd.gb_4d.gb_Td.gb_wc > div.gb_Jd.gb_Xc.gb_Zc > div.gb_oc > div:after{
+/* #gb > div.gb_Kd.gb_4d.gb_Td.gb_wc > div.gb_Jd.gb_Xc.gb_Zc > div.gb_oc > div:after {
     content:  "Google";
     font-family: arial,sans-serif;
     font-size: 2rem;
     opacity: 1 !important;        
+} */
+    
+div.gb_Dc > div:after {
+    content:  "Gmail";
+    font-family: arial,sans-serif;
+    font-size: 1.25rem;
+    opacity: 0.5 !important;        
 }
+    
 
 /* hide Google colored circle segments around user picture */
 #gb > div > div > div > div > div > a > div > svg > path
