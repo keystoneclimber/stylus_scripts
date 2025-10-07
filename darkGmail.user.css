@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.19
+@version        1.0.20
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -68,7 +68,7 @@ span *{
 }
 
 /* hide Gmail logo */
-a[title="Gmail"], .gb_Pd {
+a[aria-label="Gmail"] {
   display: none;
 }
 
@@ -79,13 +79,20 @@ a[title="Gmail"], .gb_Pd {
     font-size: 2rem;
     opacity: 1 !important;        
 } */
+
+/* div:has(a[href="#inbox"]:aria-label("Gmail")):after:after {
+    content:  "Gmail";
+    font-family: arial,sans-serif;
+    font-size: 1.25rem;
+    opacity: 0.5 !important;      
+} */
     
-div.gb_Dc > div:after {
+/* div.gb_Rc:after {
     content:  "Gmail";
     font-family: arial,sans-serif;
     font-size: 1.25rem;
     opacity: 0.5 !important;        
-}
+} */
     
 
 /* hide Google colored circle segments around user picture */
@@ -107,7 +114,7 @@ div.gb_Dc > div:after {
   border-radius: 0px;
   background: var(--color-search-background) !important;
   color: var(--color-text) !important;
-  height: 35px;
+/*   height: 35px; */
 }
 
 /* border */
@@ -115,40 +122,41 @@ div.gb_Dc > div:after {
   border: 1px solid var(--color-borders);  
 }
 
+  
 /* search bar input text vertical position precursor*/
-#aso_search_form_anchor > div > table {
+/* #aso_search_form_anchor > div > table {
   height: 0px !important;
-}
+} */
 
 /* search bar input text vertical position  */
-.gb_We {
+/* .gb_We {
     padding: 4px 0 !important;
-}
+} */
 
 /* input field text*/
-input[aria-label="Search mail"]{
+/* input[aria-label="Search mail"]{
   color: var(--color-text) !important;
   height: 35px;
-}
+} */
 
     /* input field text*/
-input[aria-label="Search in mail"]{
+/* input[aria-label="Search in mail"]{
   color: var(--color-text) !important;
   height: 35px;
-}
+} */
     
 /* magnifying glass icon and advanced search dropdown caret */
-#aso_search_form_anchor button svg {
+/* #aso_search_form_anchor button svg {
   color: var(--color-text-menus) !important;
   padding: 0px;
 }
+ */
 
-
+    
 /* search bar container dropdown interface */
 .gb_tf {
   height: 35px;
 }
-
 
 /* dropdown table background */
 .gstl_50.gssb_c table, tr.aRp {
@@ -177,6 +185,9 @@ input[aria-label="Search in mail"]{
   filter: invert(1) !important; 
 }
 
+    
+    
+    
 /* advanced search dropdown background */
 .ZZ {
   background-color: var(--color-search-background) !important;
@@ -257,9 +268,9 @@ label.aD::before {
     color: #3c4043;
 }
 
-.gb_Nb>.gb_Mb:hover, .gb_Mb:hover, .gb_ub:hover {
+/* .gb_Nb>.gb_Mb:hover, .gb_Mb:hover, .gb_ub:hover {
     background-color: var(--color-button) !important;
-}
+} */
     
 .gb_l .gb_jb {
     background: none !important;
