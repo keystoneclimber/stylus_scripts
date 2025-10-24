@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark NWS Radar by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.2
+@version        1.0.3
 @description    dark style for National Weather Service Radar
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -13,6 +13,23 @@
         --color-background: #333333;
         --color-text: #DDDDDD;
     }
+
+/*--------------------------------------- */
+/*   remove government shutdown banner    */
+/*--------------------------------------- */
+    .gov-shutdown-banner {
+        display: none;      
+    }
+    
+    #app header .banner {
+        top: 0px !important;
+    }
+   
+    #app .main.fullscreen {
+        top: 56px !important;
+    }
+/*--------------------------------------- */
+    
     
     #app > header > div {
         background: var(--color-background);    
