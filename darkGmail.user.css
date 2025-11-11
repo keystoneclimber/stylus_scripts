@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.21
+@version        1.0.22
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -675,16 +675,14 @@ div.VO, .VM .Q5, .VM .OG {
     color: var(--color-text-menus) !important;
 }
     
-    
-    
-    
-    
+div.qK, div.qL {
+    background-color: var(--color-background) !important;
+}
     
 /* settings menu separator colors*/
 .J-Kh {
     border-color: var(--color-borders) !important;
 }
-
 
 /* subject line */
 .hP {
