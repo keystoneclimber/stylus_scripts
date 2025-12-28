@@ -6,7 +6,7 @@
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
-
+/*test*/
 @-moz-document url-prefix("http://blogsearch.google"), url-prefix("http://books.google"), url-prefix("http://209.85.165.104"), url-prefix("http://translate.google"), url-prefix("http://video.google"), url-prefix("https://encrypted.google"), url-prefix("https://translate.google"), url-prefix("http://scholar.google"), url-prefix("https://scholar.google"), url-prefix("http://images.google"), url-prefix("https://images.google"), url-prefix("https://www.google.com/fonts"), regexp("https?://www\\.google\\.[a-z.]*/(?!calendar|nexus|adsense|analytics|maps).*") {
 :root {
 
