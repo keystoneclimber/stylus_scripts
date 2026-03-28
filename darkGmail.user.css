@@ -134,10 +134,10 @@ a[aria-label="Gmail"] {
 } */
 
 /* input field text*/
-/* input[aria-label="Search mail"]{
+ input[aria-label="Search mail"]{
   color: var(--color-text) !important;
   height: 35px;
-} */
+} 
 
     /* input field text*/
 /* input[aria-label="Search in mail"]{
