@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.23
+@version        1.0.24
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -69,9 +69,20 @@ span *{
 
 /* hide Gmail logo */
 a[aria-label="Gmail"] {
-  display: none;
+  display: none !important;
 }
 
+   /* hide upgrade button */
+div.s1rbBe {
+  display: none !important;
+} 
+
+   /* hide Gemini button */
+#gb > div.gb_Qd.gb_Td.gb_5d.gb_8c > div.gb_Zd.gb_7d.gb_Re.gb_4e.gb_7e > div.gb_v.gb_xe.bGJ > div:nth-child(5) {
+  display: none !important;
+} 
+    
+    
 /* replace with plain text Google  */
 /* #gb > div.gb_Kd.gb_4d.gb_Td.gb_wc > div.gb_Jd.gb_Xc.gb_Zc > div.gb_oc > div:after {
     content:  "Google";
