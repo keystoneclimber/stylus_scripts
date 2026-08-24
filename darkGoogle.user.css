@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.48
+@version        1.0.49
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1730,7 +1730,10 @@ color: #999999 !important;
 .gvSettingsView-sections, 
 .gvSettingsView-settingsNavBar,
 .container,
-gv-recipient-picker-input-ng2 > div
+gv-recipient-picker-input-ng2 > div, 
+gv-inbox-summary,
+mat-card,
+span.mat-mdc-button-touch-target    
 {
     background:  var(--color-background) !important;
 }
@@ -1738,6 +1741,11 @@ gv-recipient-picker-input-ng2 > div
 span.mdc-evolution-chip__cell.mdc-evolution-chip__cell--trailing.ng-star-inserted > button
 {
     background:  none !important;
+}
+
+.inbox-summary-container[_ngcontent-ng-c1734951958] 
+{
+padding: 0;        
 }
     
 /* general heading text colors     */
@@ -1808,6 +1816,12 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
     display: none !important;  
 }
 
+/* hide upgrade button     */
+#ogb-right-pc-1 > gv-base-product-controls > a
+{
+    display: none !important;      
+}
+    
 /* hide border around search bar */
 .RNNXgb, #gb > div.gb_Md.gb_3d.gb_Ud.gb_Td > div.gb_Tc.gb_Na.gb_Sc > div > div.gb_Ia.gb_dd.gb_yg.gb_g.gb_Hf > div > a {
     border: none !important;  
