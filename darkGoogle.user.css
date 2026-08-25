@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Google by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.49
+@version        1.0.50
 @description    dark style for Google
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -1733,7 +1733,8 @@ color: #999999 !important;
 gv-recipient-picker-input-ng2 > div, 
 gv-inbox-summary,
 mat-card,
-span.mat-mdc-button-touch-target    
+span.mat-mdc-button-touch-target,
+gv-availability-menu > div
 {
     background:  var(--color-background) !important;
 }
@@ -1758,7 +1759,9 @@ div.device-label,
 [class="deviceLabel"],  
 button > div:not([class="caption"]),
 div.message-input-container > textarea,
-#mat-mdc-chip-list-input-2
+#mat-mdc-chip-list-input-2,
+#xap-auto-id-1 > span,
+[class="title content"]
 {
     color:  var(--color-text) !important;
 } 
@@ -1781,6 +1784,15 @@ form[role="search"] input::placeholder {
     color: var(--color-text) !important;
 }  
 
+/*  call controller dropdown    */
+.chip[_ngcontent-ng-c594630884]:active, .chip[_ngcontent-ng-c594630884]:hover {
+    background-color: var(--color-flyout-highlight) !important;
+}
+  
+.mat-icon, #gbwa > div > a > svg {
+    color: var(--color-icon) !important;    
+}
+    
 /* call sidebar */
 .gvCallSidebar-root, gv-side-nav, gv-call-sidebar div {
     background-color: var(--color-background) !important;
@@ -1802,7 +1814,9 @@ gv-thread-item-list,
 .header, #il1, #contact-list, #il2,
 div.gvThreadDetails-messageEntryContainer,
 #messaging-view div.message-input-container > textarea,
-#il3
+#il3,
+.mat-mdc-nav-list .mat-mdc-list-item.mdc-list-item--activated 
+
 {
     background-color: var(--color-background);
 } 
@@ -1812,7 +1826,9 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 }
 
 /* hide Google rainbow colored circle segments around user picture */
-#gb div > svg > path:not(#gb > div.gb_Fd.gb_Wd > div.gb_Ed.gb_Wc.gb_Xc > div:nth-child(1) > svg > path) {
+#gb div > svg > path:not(#gb > div.gb_Fd.gb_Wd > div.gb_Ed.gb_Wc.gb_Xc > div:nth-child(1) > svg > path),
+#gb > div.gb_Td.gb_Wd > div.gb_be.gb_Fb.gb_2d > div.gb_Md > div.gb_z.gb_Ed.gb_1f.gb_8 > div > a > img    
+{
     display: none !important;  
 }
 
@@ -1852,10 +1868,19 @@ body, .modboxin, .modbox, #guser, div[GM40threads], #m_40_b, .thread_table, .rea
 #gvPageRoot > div.gv_root.layout-column.flex > div.layout-row.flex > gv-call-sidebar > div > gv-in-call > div > div > div > div.GHQeBe-ItvKz.GHQeBe-jwZwb > gv-dtmf-input > div.dialpad-entry-container.ng-star-inserted > label > input, .gvPageRoot .grey-900, #il1, #il2, #il3, #input_1, #input_2, #input_3, .gvPageRoot .name, INPUT[name="q"] {
     color: var(--color-text-active) !important;
 } 
-    
-.gvThreadItem-selected {
+ 
+.gvThreadItem-selected,
+.dnd-status[_ngcontent-ng-c2602325965]
+
+{
     background-color: var(--color-button);
 }  
+
+.dnd-status[_ngcontent-ng-c2602325965]:hover    
+{
+    background-color: var(--color-button-hover);
+} 
+
     
 #messaging-view gv-thread-item > div:hover {
     background-color: var(--color-button-hover);
