@@ -1,20 +1,25 @@
 /* ==UserStyle==
 @name           Dark Pandora by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.0
+@version        1.0.1
 @description    dark style for Pandora
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
 ==/UserStyle== */
 
 @-moz-document domain("www.pandora.com") {
-body{
+    
+body {
     background-color: #111111 !important;
     background-image: none !important;
     color: white !important;
     height: auto !important;
 }
 
+.AppBg:after, div.region-topBar.region-topBar--searchT3, .AddedHeader--scrolled {
+    background-color: #111111 !important;
+}    
+    
 body:before {
     background-image: none !important;
 }
@@ -27,6 +32,14 @@ body:after {
     color: #FFFFFF !important;
 }
 
+a, a:focus, a:hover, a:visited {
+    color: white !important;
+}
+    
+span, div.GridItem__caption__second {
+    color: #aab3cc !important;
+}
+    
 .NavHorizontal__item__link--active {
     color: hsla(0,0%,100%,.6) !important;
 }
@@ -87,7 +100,7 @@ svg,
 }
 
 .RadioButton, .Checkbox {
-	background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.6);
     color: #aab3cc;
 }
 /* active SVG */
@@ -387,7 +400,7 @@ a.BackstageGridItem__text__second {
 /* Station details / editor */
 
 .StationDetails {
-	background-color: #111111;
+    background-color: #111111;
 }
 
 .FeedbackList__ListHeader,
