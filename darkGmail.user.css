@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.25
+@version        1.0.26
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -342,7 +342,7 @@ div.T-I.T-I-KE.L3:before{
 /* -------------------------------- */
 
 /* get rid of folder icons */
-.qj, .KCRnif {
+.qj, .at9 .KCRnif {
     display: none;
 }    
 
