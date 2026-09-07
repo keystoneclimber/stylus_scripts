@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Gmail by keystoneclimber
 @namespace      http://www.brandontarr.com
-@version        1.0.24
+@version        1.0.25
 @description    dark style for Gmail
 @author         keystoneclimber
 @homepageURL    https://github.com/keystoneclimber/stylus_scripts/
@@ -78,7 +78,9 @@ div.s1rbBe {
 } 
 
    /* hide Gemini button */
-#gb > div.gb_Qd.gb_Td.gb_5d.gb_8c > div.gb_Zd.gb_7d.gb_Re.gb_4e.gb_7e > div.gb_v.gb_xe.bGJ > div:nth-child(5) {
+#gb > div.gb_Qd.gb_Td.gb_5d.gb_8c > div.gb_Zd.gb_7d.gb_Re.gb_4e.gb_7e > div.gb_v.gb_xe.bGJ > div:nth-child(5),
+#gb > div.gb_Td.gb_Wd.gb_8d.gb_bd > div.gb_2d.gb_ae.gb_Ue.gb_8e.gb_bf > div.gb_v.gb_Ae.bGJ > div:nth-child(4)
+    {
   display: none !important;
 } 
     
@@ -107,7 +109,8 @@ div.s1rbBe {
     
 
 /* hide Google colored circle segments around user picture */
-#gb > div > div > div > div > div > a > div > svg > path
+#gb > div > div > div > div > div > a > div > svg > path,
+div.gb_z.gb_Ed.gb_1f.gb_8 > div > a > img
 {
     display: none !important;  
 }
@@ -339,7 +342,7 @@ div.T-I.T-I-KE.L3:before{
 /* -------------------------------- */
 
 /* get rid of folder icons */
-.qj {
+.qj, .KCRnif {
     display: none;
 }    
 
