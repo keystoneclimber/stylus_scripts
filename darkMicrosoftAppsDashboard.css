@@ -1,0 +1,54 @@
+/* ==UserStyle==
+@name           Dark Microsoft Apps Dashboard by keystoneclimber
+@namespace      http://www.brandontarr.com
+@version        1.0.0
+@description    dark style for Microsoft Apps Dashboard
+@author         keystoneclimber
+@homepageURL    https://github.com/keystoneclimber/stylus_scripts/
+==/UserStyle== */
+
+@-moz-document url-prefix("https://myapps.microsoft.com/") {
+    :root {
+    --color-background: #111111;
+    --color-text-active: #A4A4A4;
+    --color-borders: #555555;
+    }
+
+    body, div, #SearchBox371 {
+        background: var(--color-background) !important;
+        color: var(--color-text-active) !important;
+        border-color: var(--color-borders) !important;
+    }
+    
+    span {
+        color: var(--color-text-active) !important;
+    }
+    
+    .f1xteiwb {
+        border-right: none;
+    }
+       
+    #O365_MainLink_NavMenu,
+    [role="banner"] button,
+    [role="menubar"] button,
+    [role="toolbar"] button,
+    [role="tree"] button
+    {
+        color: var(--color-button) ;
+        background-color: var( --color-background);
+    }
+    
+    #O365_MainLink_NavMenu:hover,
+    [role="banner"] button:hover,
+    [role="menubar"] button:hover,
+    [role="toolbar"] button:hover,
+    [role="tree"] button:hover,
+    [role="tablist"] button:hover,
+    [id="appsModule"] [role="listitem"]:hover,
+    .o365cs-base .o365sx-neutral-lighter-hover-background:hover
+    {
+        color: var(--color-button-hover);
+        background-color: var( --color-background);
+    }
+    
+}
